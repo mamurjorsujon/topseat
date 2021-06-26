@@ -1,0 +1,266 @@
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .form-md-size{
+        width: 650px;
+    }
+
+    .mfp-close {
+        right: -80px !important;
+        top: -60px;
+    }
+
+    .mfp-counter {
+        position: absolute;
+        top: -60px;
+        left: -80px;
+    }
+    .mfp-title {
+        top: 105%;
+        left: -0;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .user-icon-lg{
+        font-size: 20px;
+    }
+
+    .form-md-size{
+        width: 500px;
+    }
+    .slider-previous-btn, .slider-next-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        margin-top: 5px;
+    }
+
+    .mfp-close {
+        position: relative;
+        text-decoration: none;
+        right: 0 !important;
+        color: #fff;
+    }
+
+    .container-width {
+        width: 430px;
+    }
+
+    .modal-header-list{
+        display: inline-block !important;
+    }
+
+    .modal-header-list > li {
+        margin-right: 5px;
+    }
+
+    .tx-center{
+        text-align: center;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .user-icon-md{
+        font-size: 20px;
+    }
+
+    .copyright-font-size-sm{
+        font-size: 14px !important;
+        line-height: 20px;
+        font-weight: 500 !important;
+    }
+
+    #footer .last-col i {
+        font-size: 21px;
+        margin-right: 10px;
+    }
+
+    .arrows > button:first-child{
+        font-size: 13px;
+        padding: 5px 20px;
+    }
+
+    .arrows > button:nth-child(2){
+        font-size: 13px;
+        padding: 5px 10px !important;
+        height: 35px;
+    }
+
+    .arrows > button:nth-child(3){
+        font-size: 13px;
+        padding: 5px 10px !important;
+        height: 35px;
+    }
+
+    .arrows-sm-size > button:first-child{
+        font-size: 13px;
+        padding: 5px 10px !important;
+        height: 35px;
+    }
+
+    .slider-previous-btn, .slider-next-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        margin-top: 5px;
+    }
+
+    .mfp-close {
+        right: 50px !important;
+        top: -23px;
+    }
+
+    .mfp-counter {
+        position: absolute;
+        top: -30px;
+        left: -10px;
+    }
+
+    .container-width {
+        width: 100%;
+    }
+
+    .modal-header-list{
+        display: inline-block !important;
+    }
+
+    .modal-header-list > li {
+        margin-right: 10px;
+    }
+
+    .tx-center{
+        text-align: center;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .homepage-header{
+        padding: 30px 0;
+        background-image: none;
+    }
+
+    .sm-fs-36{
+        font-size: 36px;
+    }
+
+    .arrows > button:first-child{
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+
+    .sm-fs-20{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .slider-previous-btn, .slider-next-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        margin-top: 5px;
+    }
+
+    .more-photos > h5 {
+        font-size: 16px;
+    }
+
+    .popular-cities{
+        display: block !important;
+    }
+
+    .popular-cities > li {
+        margin-bottom: 15px;
+    }
+
+    .offer-box-size{
+        width: 100% !important;
+    }
+
+    .comment-rating > span{
+        font-size: 23px;
+    }
+
+    .comment-content > p{
+        font-size: 14px;
+    }
+
+    .fs-15{
+        font-size: 15px;
+    }
+
+    .fs-20{
+        font-size: 20px;
+    }
+
+    .fs-14{
+        font-size: 14px !important;
+    }
+
+    .fs-13{
+        font-size: 13px !important;
+    }
+
+    .fs-25{
+        font-size: 25px;
+    }
+
+    .modal-header-list{
+        display: inline-block !important;
+    }
+
+    .modal-header-list > li {
+        margin-right: 10px;
+    }
+
+    .book-btn {
+        padding: 10px 0 !important;
+        display: block;
+    }
+
+    .width-100{
+        width: 100% !important;
+    }
+
+    .tx-center{
+        text-align: center;
+    }
+
+    .container-width {
+        width: 100%;
+    }
+
+    .offer-box{
+        padding: 0 20px;
+    }
+
+    .px-smo-2{
+        padding: 0 20px;
+    }
+
+    .features-content-link{
+        display: inline-block !important;
+    }
+
+}
+
+
+
+
+
+

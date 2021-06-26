@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Top Seat</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Google Font  -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <!-- Slick Slider -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"  rel="stylesheet" />
+  <!-- style css -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <!-- header -->
+  <header class="sticky-top">
+    <div class="py-1 bg-light d-flex justify-content-end px-4">
+      <div class="topbar text-uppercase">
+        <a href="#" class="text-decoration-none border-end pe-2">Register my restaurant</a>
+        <a href="#" class="text-decoration-none ps-2">HELP</a>
+      </div>
+    </div>
+
+    <nav class="navbar px-3">
+      <div class="container-fluid">
+        <a href="index.html">
+          <h4 class="text-dark">TopSeat</h4>
+        </a>
+
+        <div class="main-header d-flex">
+          <i class="fa fa-search user-icon-lg fa-sm me-2 d-block d-md-none"></i>
+          <i class="far fa-user-circle user-icon-md"></i>
+          <a href="#" class="text-decoration-none d-none d-md-block">LOGIN</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- header end -->
+
+  <main>
+    <!-- HomePage Header -->
+    <section class="homepage-header">
+      <div class="container-xl container-lg container-fluid">
+        <div class="row">
+          <div class="col-xl-6 col-sm-12 col-md-7 mx-auto mx-md-0 col-12">
+            <h4 class="h2 fw-bolder mb-4 sm-fs-36">
+              Discover and book the best restaurants
+            </h4>
+
+            <form method="" class="home-page-header-form rounded p-4">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">What</label>
+                <div class="position-relative">
+                  <input type="search" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Kitchen, restaurant name...">
+                  <svg class="position-absolute top-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="css-p3qwn0 elml5ar0"><g fill-rule="evenodd"><path d="M16.91 1.5C19.181 1.5 21 4.068 21 6.616c0 2.083-1.32 3.496-3.273 3.802V21.59a.91.91 0 11-1.819 0V10.418c-1.952-.306-3.09-1.719-3.09-3.802 0-2.548 1.819-5.116 4.091-5.116zm0 1.467c-1.174 0-2.455 1.81-2.455 3.65 0 1.546.96 2.395 2.454 2.395 1.494 0 2.455-.849 2.455-2.396 0-1.839-1.282-3.649-2.455-3.649z"></path><path d="M7.09 21.766c0 .406-.365.734-.817.734-.452 0-.818-.328-.818-.734V9.728C4.095 9.728 3 8.723 3 7.492V2.234c0-.406.366-.734.818-.734.452 0 .818.328.818.734v5.258c0 .428.371.769.819.769V2.234c0-.406.366-.734.818-.734.452 0 .818.328.818.734V8.26c.447 0 .818-.34.818-.769V2.234c0-.406.366-.734.818-.734.452 0 .818.328.818.734v5.258c0 1.231-1.094 2.236-2.454 2.236v12.038z"></path></g></svg>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Where</label>
+                <div class="position-relative">
+                  <input type="search" class="form-control" id="exampleInputPassword1" aria-describedby="emailHelp" placeholder="Stockholm">
+                  <svg class="position-absolute top-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="css-p3qwn0 e3pjkim0"><g fill-rule="evenodd"><path d="M12 1.5a6.75 6.75 0 016.75 6.75c0 .82-.146 1.62-.413 2.324-.775 2.588-2.671 6.43-5.69 11.557a.75.75 0 01-1.293 0c-3.02-5.127-4.916-8.97-5.675-11.51A6.75 6.75 0 0112 1.5zM12 3a5.25 5.25 0 00-5.25 5.25c0 .639.114 1.26.35 1.892.673 2.249 2.294 5.605 4.856 10.045l.043.073.43-.746c2.229-3.912 3.69-6.942 4.389-9.101l.099-.318A5.25 5.25 0 0012 3z"></path><path d="M12 5.25a3 3 0 110 6 3 3 0 010-6zm0 1.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3z"></path></g></svg>
+                </div>
+              </div>
+              <div class="d-grid header-form-submit">
+                <button class="btn btn-primary py-2 text-uppercase fw-bold" type="button">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-5 d-none d-md-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img style="padding: 0 20px; width: 100%; background-size: cover;" class="" src="img/Orange Ladybug Baby Shower Facebook Cover.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- offer section -->
+      <section>
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-middle pt-5 pb-4 px-3">
+                <h4 class="align-self-center sm-fs-20 mb-0">Offer from TheFork</h4>
+
+                <div class="arrows arrows-sm-size d-flex align-self-center align-items-center">
+                  <button class="fas fa-angle-left m-1 border rounded prev1"></button>
+                  <button class="fas fa-angle-right m-1 border rounded next1"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="offer-slider row">
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://www.abc27.com/wp-content/uploads/sites/55/2021/05/New-You-Hair-Salon.jpg?w=1280" alt="">
+
+                <h6 class="mt-2 fw-bolder">Italian</h6>
+                <p>Enjoy flavours from italian cuisine</p>
+
+                <a href="#!" class="text-uppercase text-decoration-none">See Restaurants</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy_6vcRAgUgYjq5BvGjZYXyXXMJaPKxV612ldKSPGV92sFDt8rxZTCLu6-_pXhL0sVdjw&usqp=CAU" alt="">
+
+                <h6 class="mt-2 fw-bolder">Italian</h6>
+                <p>Enjoy flavours from italian cuisine</p>
+
+                <a href="#!" class="text-uppercase text-decoration-none">See Restaurants</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://cdn.abcotvs.com/dip/images/6133787_042720-kabc-6pm-ie-open-salon-vid.jpg?w=1600" alt="">
+
+                <h6 class="mt-2 fw-bolder">Offers</h6>
+                <p>Enjoy up to 50% on the food bill</p>
+
+                <a href="#!" class="text-uppercase text-decoration-none">See Restaurants</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSczaXASpuXrtkpxfnY-7rDND-wG4yDUEz07wEUy7E6PNiyJ31hRLaEdCdQXh7Mh2V1AgY&usqp=CAU" alt="">
+
+                <h6 class="mt-2 fw-bolder">INSIDER</h6>
+                <p>Discover our best tables right now.</p>
+
+                <a href="#!" class="text-uppercase text-decoration-none">See Restaurants</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Selected For You -->
+      <section>
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-middle pt-5 pb-4 px-3">
+                <h4 class="align-self-center sm-fs-20 mb-0">Selected for you</h4>
+
+                <div class="arrows d-flex align-self-center align-items-center arrows-sm-size">
+                  <button class="fas fa-angle-left m-1 border rounded prev2"></button>
+                  <button class="fas fa-angle-right m-1 border rounded next2"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="selected-for-you-slider row">
+            <div class="col-md-4">
+              <a href="single.html">
+                <div class="offer-restaurant-card card border-0 p-2">
+                  <img class="rounded" src="https://idsb.tmgrup.com.tr/ly/uploads/images/2020/04/25/32446.jpg" alt="">
+
+                  <div class="status d-flex text-uppercase">
+                    <span class="text-dark">European • After Work</span>
+                  </div>
+                  <div class="d-flex justify-content-between mt-2">
+                    <h6 class="fw-bolder text-dark">Elma All Day Dinning</h6>
+                    <h6 class="fw-bolder text-dark">9.0</h6>
+                  </div>
+
+                  <div class="d-inline">
+                    <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                  </div>
+
+                  <div class="card-description">
+                    <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="single.html">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://roundtherocktx.com/wp-content/uploads/2020/05/Cut-Splice-Hair-Salon-8.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span class="text-dark">European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder text-dark">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder text-dark">9.0</h6>
+                </div>
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="single.html">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://media.timeout.com/images/103270822/image.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span class="text-dark">European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder text-dark">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder text-dark">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col-md-4">
+              <a href="single.html">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ5Y4BTI1z_1axWAvs49-RoC-BIt6U2MJAq1WET3oTY7cfNz3gGowgjf3N7SJXues_2GU&usqp=CAU" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span class="text-dark">European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder text-dark">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder text-dark">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-bottom-badge badge text-light bg-dark text-uppercase px-1">menu</p>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="single.html">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://images.squarespace-cdn.com/content/v1/5733c33486db43fa40ab4e1e/1534991044327-XUX9D4GKTQJR34NHPN3Z/ke17ZwdGBToddI8pDm48kHMDeCVJdl0pnLaVawxblQl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0scl71iiVnMuLeEyTFSXT3pTn9GmxhMQE_j8ueHLWqvJ05bcmKqM0YKjjKQmMKGZcg/msls1-min+%281%29.jpg?format=1000w" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span class="text-dark">European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder text-dark">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder text-dark">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Popular restaurants in Stockholm-->
+      <section>
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-items-center pt-5 pb-4 px-3">
+                <h4 class="mb-0">Popular restaurants in Stockholm</h4>
+
+                <div class="arrows d-flex align-self-center align-items-center">
+                  <button class="text-uppercase border-0 show-more-btn fw-bold rounded">show more</button>
+                  <button class="fas fa-angle-left m-1 border d-none d-sm-block rounded prev3"></button>
+                  <button class="fas fa-angle-right m-1 border d-none d-sm-block rounded next3"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popular-restaurant-stockholm-slider row">
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://images.squarespace-cdn.com/content/v1/5733c33486db43fa40ab4e1e/1534991042545-996A7Y7V2OEOB9G01MBD/ke17ZwdGBToddI8pDm48kHMDeCVJdl0pnLaVawxblQl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0scl71iiVnMuLeEyTFSXT3pTn9GmxhMQE_j8ueHLWqvJ05bcmKqM0YKjjKQmMKGZcg/msb-min.jpg?format=1500w" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://s11284.pcdn.co/wp-content/uploads/2020/05/empty-hair-salon.jpg.optimal.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjdTRGGI9FuM3vP2mn57rKQzBU-7y1kndzOsgzld5MvVn7thbJB-32iwvK4QmEGfLHbOA&usqp=CAU" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://luxurylifestyleawards.com/wp-content/uploads/2019/12/belle-femme-beauty-boutique-spa-hair-at-JBR-1.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-bottom-badge badge text-light bg-dark text-uppercase px-1">menu</p>
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjdTRGGI9FuM3vP2mn57rKQzBU-7y1kndzOsgzld5MvVn7thbJB-32iwvK4QmEGfLHbOA&usqp=CAU" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Popular restaurants in Gothenburg-->
+      <section>
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-middle pt-5 pb-4 px-3">
+                <h4 class="align-self-center sm-fs-20 mb-0">Popular restaurants in Gothenburg</h4>
+
+                <div class="arrows d-flex align-self-center align-items-center">
+                  <button class="text-uppercase border-0 show-more-btn fw-bold rounded">show more</button>
+                  <button class="fas fa-angle-left d-none d-sm-block m-1 border rounded prev4"></button>
+                  <button class="fas fa-angle-right d-none d-sm-block m-1 border rounded next4"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popular-restaurant-gothenberg-slider row">
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://i.pinimg.com/originals/a7/24/df/a724df513f770a21acd68d92624d3c2a.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://i.pinimg.com/originals/b5/eb/a7/b5eba7800310c3a55eea6c72f0631574.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://images.squarespace-cdn.com/content/v1/5ab1c2f836099bf24511ca80/1556735064745-DMU8Z66P6MUCUSCLBNVN/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/CCS0023-sm.jpg?format=2500w" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://i.pinimg.com/originals/b5/eb/a7/b5eba7800310c3a55eea6c72f0631574.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-bottom-badge badge text-light bg-dark text-uppercase px-1">menu</p>
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://img1.wsimg.com/isteam/ip/bdb8ef41-f1d2-450a-a17f-82fbf73ee2cd/(20)-0001.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://pbs.twimg.com/media/DuoghngWsAA2v0_.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-bottom-badge badge text-light bg-dark text-uppercase px-1">20%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Popular restaurants in Malmo-->
+      <section>
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-middle pt-5 pb-4 px-3">
+                <h4 class="align-self-center sm-fs-20 mb-0">Popular restaurants in Malmo</h4>
+
+                <div class="arrows d-flex align-self-center align-items-center">
+                  <button class="text-uppercase border-0 show-more-btn fw-bold rounded">show more</button>
+                  <button class="fas fa-angle-left m-1 d-none d-sm-block border rounded prev5"></button>
+                  <button class="fas fa-angle-right m-1 d-none d-sm-block border rounded next5"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popular-restaurant-malmo-slider row">
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://i.ytimg.com/vi/SVzWFe2waRU/maxresdefault_live.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://i.pinimg.com/originals/83/93/3f/83933f3611c59379b30a03079cf561c3.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://st3.depositphotos.com/5171687/i/600/depositphotos_317889136-stock-photo-modern-bright-hair-beauty-salon.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://st3.depositphotos.com/5171687/31788/i/450/depositphotos_317887850-stock-photo-panorama-modern-bright-hair-beauty.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-bottom-badge badge text-light bg-dark text-uppercase px-1">menu</p>
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://i.pinimg.com/originals/49/4a/94/494a945f15e2b486d6369edb3c8f8905.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://i2.wp.com/beuhairsalon.com/wp-content/uploads/2017/09/beuhair-interior-min.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-bottom-badge badge text-light bg-dark text-uppercase px-1">20%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Popular restaurants in Uppsala-->
+      <section>
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-middle pt-5 pb-4 px-3">
+                <h4 class="align-self-center sm-fs-20 mb-0">Popular restaurants in Uppsala</h4>
+
+                <div class="arrows d-flex align-self-center align-items-center">
+                  <button class="text-uppercase border-0 show-more-btn fw-bold rounded">show more</button>
+                  <button class="fas fa-angle-left m-1 border d-none d-sm-block rounded prev6"></button>
+                  <button class="fas fa-angle-right m-1 border d-none d-sm-block  rounded next6"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popular-restaurant-uppsala-slider row">
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Nvaveu6luk_qh4UVXP1ylegbZTYlMaJ36LcJJQCC2TsbmWV7DjvjYHYp-UmUi47kYhQ&usqp=CAU" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBCaCb_XqdzcXW-jH1uRF74bkLaKaSzBmMglpFnX-U6atzn85QxRx8fvoIljnYy-XrsE&usqp=CAU" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://salonbizsoftware.com/wp-content/uploads/2019/08/blog_revenueperfoot.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUgHVbJb7Q97vGtJJO2in2GAINH42dlUAOcRdu01SMh7o-KueLIci4MGClmW-C12X3BDk&usqp=CAU" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-bottom-badge badge text-light bg-dark text-uppercase px-1">menu</p>
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://cdn1.treatwell.net/images/view/v2.i1775727.w1080.h720.xD362C706/" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAjvfzrF3SRaXhIgbJauMwj7BXi6q99bQ-vPwsWuW4WrSR-rNojGi8-xrklWpiZgYSQnY&usqp=CAU" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-bottom-badge badge text-light bg-dark text-uppercase px-1">20%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Popular restaurants in Helsingborg-->
+      <section>
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-middle pt-5 pb-4 px-3">
+                <h4 class="align-self-center sm-fs-20 mb-0">Popular restaurants in Helsingborg</h4>
+
+                <div class="arrows d-flex align-self-center align-items-center">
+                  <button class="text-uppercase border-0 show-more-btn fw-bold rounded">show more</button>
+                  <button class="fas fa-angle-left m-1 border d-none d-sm-block rounded prev7"></button>
+                  <button class="fas fa-angle-right m-1 border d-none d-sm-block rounded next7"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popular-restaurant-helsingborg-slider row">
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hair_Salon_Stations.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB4qp8h9iywOoz-2PVuto9drrtWtiIQWpWO1OhnxaYZ7ir334ygYVVpjrXKrN3wTHdq1c&usqp=CAU" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCfKBFXq1FJ_7WHUPmKMiNt8FFhGzECN4wE-FsOS9IbH7tLggi7ke-DAhOkN0a20uptoE&usqp=CAU" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://welpmagazine.com/wp-content/uploads/2020/10/Filament-hair-salon1.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-bottom-badge badge text-light bg-dark text-uppercase px-1">menu</p>
+                  <a href="" class="border-bottom border-2 border-warning text-decoration-none text-dark">approve yums</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6PBTACalHtll4eqHqIZ-lVs2DioDDXHrlkwPseCXRDQEmxT7qb59wuldv0GQrwhLcxWA&usqp=CAU" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0 p-2">
+                <img class="rounded" src="https://roundtherocktx.com/wp-content/uploads/2020/05/Cut-Splice-Hair-Salon-8.jpg" alt="">
+
+                <div class="status d-flex text-uppercase">
+                  <span>European • After Work</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <h6 class="fw-bolder">Elma All Day Dinning</h6>
+                  <h6 class="fw-bolder">9.0</h6>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-badge badge text-light text-uppercase px-1">insider</p>
+                </div>
+
+                <div class="card-description">
+                  <p>752 37 Uppsala<br>SEK 320 Average Price</p>
+                </div>
+
+                <div class="d-inline">
+                  <p class="offer-restaurant-card-bottom-badge badge text-light bg-dark text-uppercase px-1">20%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Site Features-->
+      <section>
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-middle pt-5 pb-4">
+                <h4 class="align-self-center sm-fs-20 mb-0">How does it work?</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row site-features">
+            <div class="col-xl-3 col-sm-6 col-12 mb-3 mb-md-0 text-center text-md-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" color="green.m" class="best-choice-icon Baso2 css-p3qwn0 e1e2b51k0"><g fill-rule="evenodd"><path d="M12 1.5c5.799 0 10.5 4.701 10.5 10.5S17.799 22.5 12 22.5 1.5 17.799 1.5 12 6.201 1.5 12 1.5zm0 1.313a9.187 9.187 0 100 18.374 9.187 9.187 0 000-18.375z"></path><path d="M9.307 17.074c-.586.417-1.349-.172-1.115-.847l1.107-3.199-2.507-1.91c-.559-.426-.263-1.329.442-1.329h3.128l.938-3.02c.215-.692 1.185-.692 1.4 0l.938 3.02h3.128c.693 0 .997.878.46 1.315l-2.367 1.924.96 3.27c.197.671-.56 1.222-1.13.81l-2.693-1.947-2.69 1.913z"></path></g></svg>
+
+              <h6 class="mt-3">Best choice</h6>
+
+              <p>A selection of restaurants for all types of requests</p>
+            </div>
+            <div class="col-xl-3 col-sm-6 col-12 mb-3 mb-md-0 text-center text-md-start">
+              <div class="d-flex justify-content-center justify-content-md-start rating-icons mt-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" font-size="l" color="green.m" mx="xxs" class="rating-stars epzv54e0"><path fill-rule="evenodd" d="M6.858 22.164c-1.118.795-2.575-.328-2.128-1.618l2.113-6.106-4.785-3.647c-1.068-.814-.503-2.537.844-2.537h5.97l1.792-5.767c.41-1.319 2.262-1.319 2.672 0l1.792 5.767h5.97c1.324 0 1.903 1.677.879 2.51l-4.52 3.674 1.834 6.242c.376 1.282-1.07 2.334-2.158 1.547l-5.14-3.718-5.135 3.653z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" font-size="l" color="green.m" mx="xxs" class="rating-stars epzv54e0"><path fill-rule="evenodd" d="M6.858 22.164c-1.118.795-2.575-.328-2.128-1.618l2.113-6.106-4.785-3.647c-1.068-.814-.503-2.537.844-2.537h5.97l1.792-5.767c.41-1.319 2.262-1.319 2.672 0l1.792 5.767h5.97c1.324 0 1.903 1.677.879 2.51l-4.52 3.674 1.834 6.242c.376 1.282-1.07 2.334-2.158 1.547l-5.14-3.718-5.135 3.653z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" font-size="l" color="green.m" mx="xxs" class="rating-stars epzv54e0"><path fill-rule="evenodd" d="M6.858 22.164c-1.118.795-2.575-.328-2.128-1.618l2.113-6.106-4.785-3.647c-1.068-.814-.503-2.537.844-2.537h5.97l1.792-5.767c.41-1.319 2.262-1.319 2.672 0l1.792 5.767h5.97c1.324 0 1.903 1.677.879 2.51l-4.52 3.674 1.834 6.242c.376 1.282-1.07 2.334-2.158 1.547l-5.14-3.718-5.135 3.653z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" font-size="l" color="green.m" mx="xxs" class="rating-stars epzv54e0"><path fill-rule="evenodd" d="M6.858 22.164c-1.118.795-2.575-.328-2.128-1.618l2.113-6.106-4.785-3.647c-1.068-.814-.503-2.537.844-2.537h5.97l1.792-5.767c.41-1.319 2.262-1.319 2.672 0l1.792 5.767h5.97c1.324 0 1.903 1.677.879 2.51l-4.52 3.674 1.834 6.242c.376 1.282-1.07 2.334-2.158 1.547l-5.14-3.718-5.135 3.653z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" font-size="l" color="green.m" mx="xxs" class="rating-stars e1smhukn0"><path fill-rule="evenodd" d="M12 2.908L9.903 9.656h-7s-.005.017.003.024l5.591 4.261-2.444 7.063c-.005.015-.003.017-.006.02L12 16.788l5.953 4.306c-.003-.003-.001-.004-.005-.019l-2.096-7.135 5.242-4.261c.008-.007.002-.024.004-.024h-7.001L12 2.908zM6.858 22.164c-1.118.795-2.575-.328-2.128-1.618l2.113-6.106-4.785-3.647c-1.068-.814-.503-2.537.844-2.537h5.97l1.792-5.767c.41-1.319 2.262-1.319 2.672 0l1.792 5.767h5.97c1.324 0 1.903 1.677.879 2.51l-4.52 3.674 1.834 6.242c.376 1.282-1.07 2.334-2.158 1.547l-5.14-3.718-5.135 3.653z"></path></svg>
+              </div>
+
+              <h6 class="review-title">User reviews</h6>
+
+              <p>Recommendations and reviews from a large forum</p>
+            </div>
+            <div class="col-xl-3 col-sm-6 col-12 mb-3 mb-md-0 text-center text-md-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="recommendations Baso2 css-p3qwn0 eds1gnx0"><g fill-rule="evenodd"><path d="M12 3c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9m0 19.5C6.21 22.5 1.5 17.79 1.5 12S6.21 1.5 12 1.5 22.5 6.21 22.5 12 17.79 22.5 12 22.5"></path><path d="M14.5 14a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm2.273-6.773a.75.75 0 010 1.06l-8.485 8.486a.75.75 0 01-1.061-1.06l8.485-8.486a.75.75 0 011.061 0zM9.5 7a1.5 1.5 0 110 3 1.5 1.5 0 010-3z"></path></g></svg>
+
+              <h6 class="mt-3">Exclusive benefits</h6>
+
+              <p>Offers at a large number of restaurants and many more benefits with our bonus program.</p>
+            </div>
+            <div class="col-xl-3 col-sm-6 col-12 text-center text-md-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="Baso2 css-p3qwn0 ez1w57s0"><g fill-rule="evenodd"><path d="M17.25.75a.75.75 0 01.75.75V3h3.75a.75.75 0 01.75.75v18a.75.75 0 01-.75.75H2.25a.75.75 0 01-.75-.75v-18A.75.75 0 012.25 3H6V1.5a.75.75 0 011.5 0V3h9V1.5a.75.75 0 01.75-.75zM21 9H3v12h18V9zM6 4.5H3v3h18v-3h-3v.75a.75.75 0 01-1.5 0V4.5h-9v.75a.75.75 0 01-1.5 0V4.5z"></path><path d="M10.313 18.813a.753.753 0 01-.531-.22l-3.188-3.187a.752.752 0 010-1.062.752.752 0 011.062 0l2.657 2.658 6.031-6.033a.752.752 0 011.062 0 .752.752 0 010 1.062l-6.562 6.563a.753.753 0 01-.531.219"></path></g></svg>
+
+              <h6 class="mt-3">Easy booking</h6>
+
+              <p>Direct, free of charge, everywhere. Around the clock</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- cities in Sweden-->
+      <section>
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-middle pt-5 pb-4">
+                <h4 class="align-self-center sm-fs-20 mb-0">Cities in Sweden</h4>
+
+                <div class="arrows d-flex align-self-center align-items-center arrows-sm-size">
+                  <button class="fas fa-angle-left m-1 border rounded prev8"></button>
+                  <button class="fas fa-angle-right m-1 border rounded next8"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cities-in-sweden-slider row">
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/528294.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Stockholm</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/193179.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Gothenberg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/331477.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Malmo</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/567620.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Uppsala</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/211827.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Halsongborg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/60511.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Boras</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/528294.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Stockholm</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/193179.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Gothenberg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/331477.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Malmo</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/567620.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Uppsala</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/211827.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Halsongborg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://c.tfstatic.com/w_150,h_150,c_fill,g_auto:subject,q_auto,f_auto/homepage_city/60511.jpg" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Boras</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- around the world -->
+      <section>
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-middle pt-5 pb-4 px-3">
+                <h4 class="align-self-center sm-fs-20 mb-0">Around The World</h4>
+
+                <div class="arrows d-flex align-self-center align-items-center arrows-sm-size">
+                  <button class="fas fa-angle-left m-1 border rounded prev9"></button>
+                  <button class="fas fa-angle-right m-1 border rounded next9"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="around-world-slider row">
+            <div class="col-md-4 m-2">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://detroit.cbslocal.com/wp-content/uploads/sites/15909782/2011/01/flipsalon2.jpg?w=500" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Gypsy</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 m-2">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Hilud7Qfb-BVhTdVYn1e7Pc32aWCkhiV6U0-gmmzzfdqJeFpaKyhM-fz79JDcspT2O8&usqp=CAU" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Milan</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 m-2">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrEqP8urs8jmt8QRM4ubm8wUmoVRu33XPwpyIKTlFRceM2mCvV9P4FYbleDhozfDNW37c&usqp=CAU" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Turin</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 m-2">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxWUTQxiPNsn9kAzVDFn2T6h-oAzuQ-KLY0f7GJT9_vmuRrEUzXzXT6zumuiDbsLA6Q-c&usqp=CAU" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Gypsy</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 m-2">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ5PY1xSML7Gqa9w_Ka5Feb5bW_9-r5OX-TjA9cA1ERTiRYaeHHRUKqFXyPNLGtzEj91A&usqp=CAU" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Milan</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 m-2">
+              <div class="offer-restaurant-card card border-0">
+                <img class="rounded position-relative" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTaQlz1IHdAVlhmwAhzqa12Nm1Z_g3veqDLzlb9iKs6Yr1uy-yl83q0LfP0PnViasg_wc&usqp=CAU" alt="">
+                <div class="d-flex justify-content-between position-absolute city-name">
+                  <h6 class="fw-bolder text-light">Turin</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section>
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-middle pt-5 pb-4 px-3">
+                <h4 class="align-self-center sm-fs-20 mb-0">About the Fork</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <p class="about-description px-4">
+              Welcome to TheFork! At TheFork.se we offer you over 30,000 restaurants available at any time and at the best price in Sweden as well as in several other countries around Europe. Are you looking for <a href="" class="text-dark">romantic restaurants in Stockholm</a> , <a href="" class="text-dark">trendy restaurants in Gothenburg</a> , maybe a cozy <a href="" class="text-dark">Sunday brunch in Stockholm</a> or are you perhaps eager to discover a completely new gastronomic place somewhere in Sweden? <br><br>Get inspired to find the best restaurants just for you! Follow the guide on TheFork.se.<br><br>When you book with TheFork, you can also take advantage of a discount of up to 50% at several of the fine restaurants.<br><br>Choose a city and start discovering today!
+            </p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- About -->
+      <section class="pb-5">
+        <div class="container-xl container-lg container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offer-section-header d-flex justify-content-between align-middle pt-5 pb-4">
+                <h4 class="align-self-center sm-fs-20 text-dark mb-0">Do you own a restaurant?</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="row border align-items-sm-center">
+            <div class="col-xl-6 col-sm-6 col-12 ps-0">
+              <img src="https://c.tfstatic.com/w_800,h_508,c_fill,g_auto:subject,q_auto,f_auto/w_400/tf-product/ContactPage/contactpage_background.png" style="width: 100%" class="rounded-start" alt="">
+            </div>
+            <div class="col-xl-6 col-sm-6 col-12 d-flex align-items-center">
+              <div class="p-3">
+                <h4 class="mb-0 font-md text-dark fw-600">Register your restaurant</h4>
+                <p class="font-15 text-secondary">Tell us more about you and we will contact you as soon as <br> possible</p>
+
+                <a href="#!" class="text-decoration-none text-uppercase font-13 py-2 px-3 border border-style-sm color-primary rounded fw-600 hover-btn-bg-500">see MORE INFORMATION</a>
+
+                <h5 class="mt-4 font-md text-dark fw-600 mb-0">I'm already a customer</h5>
+                <p>Log in to TheFork Manager and contact us via the chat.</p>
+
+                <a href="#!" class="text-decoration-none text-uppercase font-13 py-2 px-3 border border-style-sm color-primary rounded fw-600 hover-btn-bg-500">SHOW MORE INFORMATION</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer-top-bar">
+      <div class="container">
+        <!-- Footer Top -->
+        <div class="pt-4 pb-2">
+            <p class="text-light align-content-middle">Discover and book the best restaurants</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer" class="footer-bg-black pt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-md-3 col-sm-6 col-12 mb-4 mb-md-0 first-col">
+            <h6 class="text-light mb-4">Download our app</h6>
+
+            <img src="https://www.thefork.se/statics/fcb6561af0873ed3106bbf034afb7513.svg" alt="">
+            <img src="https://www.thefork.se/statics/213784c8994af0ce61d59087611ef076.svg" alt="">
+          </div>
+          <div class="col-xl-3 col-md-3 col-sm-6 col-12 mb-4 mb-md-0">
+            <a class="d-block text-light text-decoration-none" href="#!">If</a>
+            <a class="d-block text-light text-decoration-none" href="#!">Contact</a>
+            <a class="d-block text-light text-decoration-none" href="#!">Do you run a restaurant</a>
+            <a class="d-block text-light text-decoration-none" href="#!">Common question and answers</a>
+            <a class="d-block text-light text-decoration-none" href="#!">We have vacancies</a>
+          </div>
+          <div class="col-xl-3 col-md-3 col-sm-6 col-12 mb-4 mb-md-0">
+            <a class="d-block text-light text-decoration-none" href="#!">Bonus program</a>
+            <a class="d-block text-light text-decoration-none" href="#!">Terms of use</a>
+            <a class="d-block text-light text-decoration-none" href="#!">Privacy and cookie policy(updated)</a>
+            <a class="d-block text-light text-decoration-none" href="#!">Accept Cookies</a>
+            <a class="d-block text-light text-decoration-none" href="#!">MICHELIN Guide Partnership</a>
+          </div>
+          <div class="col-xl-3 col-md-3 col-sm-6 col-12 last-col">
+            <div class="d-flex text-light">
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-facebook"></i>
+            </div>
+            <h5 class="text-light mt-2 font-arial font-md fw-600 copyright-font-size-sm">
+              © 2021 LA FOURCHETTE SAS - WITH EXCLUSIVE RIGHTS
+            </h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <p class="footer-bottom-p text-light text-center mt-4">For promotional offers, conditions that appear on the restaurant's page apply. Offers on alcoholic beverages only apply to adults. Alcohol abuse is dangerous for your health. Drink in moderation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- footer end -->
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <!-- modernizr js -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <!-- Slick Slider -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- Bootstrap js  -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+  <!-- Custom js  -->
+  <script src="js/main.js"></script>
+  <!-- Slider Controller -->
+  <script src="js/slides.js"></script>
+</body>
+</html>

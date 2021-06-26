@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ul li {
+    display: inline-block;
+}
+
+p {
+    color: #828489;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.bg-silver {
+    background-color: #f7f7f8;
+}
+/*=====================
+/* Root Color Variable
+======================*/
+:root {
+    --pri-color: hsl(104, 38%, 42%);
+    --sec-heading: #616160;
+    --booking-btn-hover-bg: rgb(232, 240, 229);
+    --booking-btn-box-shadow: rgb(67 113 50);
+}
+.left-panel,
+.right-panel {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+
+.list-group {
+    border-radius: 0;
+}
+
+.list-group-item {
+    border-left: 0 !important;
+    border-right: 0 !important;
+    padding: 0;
+}
+
+.list-group-item a {
+    padding: 20px 0 20px 20px !important;
+    background-color: #f7f7f8;
+    font-size: 16px;
+    color: #3c4048;
+}
+
+.list-group-item a:hover {
+    background-color: #fff;
+}
+.list-group-item a.active {
+    background-color: #fff;
+}
+i {
+    color: var(--pri-color);
+    font-size: 20px;
+}
+
+.profile-info p,
+.profile-radio label,
+.profile-name label {
+    font-size: 13px;
+    color: #3C4048;
+    line-height: 18px;
+}
+
+.form-control, .form-select {
+    border-radius: 0;
+    border-color: #7e838d !important;
+    padding: 2px 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-control:focus, .form-select {
+    color: #212529;
+    background-color: rgb(247, 247, 248) !important;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: var(--pri-color);
+    border: none;
+    padding: 12px 25px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(67, 113, 50);
+}
+
+.form-select:focus,
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.btn-close-acc {
+    background-color:transparent;
+    color: var(--pri-color);
+    font-weight: 600;
+}
+.btn-close-acc:hover {
+    background-color: var(--booking-btn-hover-bg);
+}
+
+.db-restaurant-box {
+    background-color: #f7f7f8;
+}
+.db-restaurant-box img {
+    width: 180px;
+    height: 180px;
+}
