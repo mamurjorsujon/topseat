@@ -32,6 +32,7 @@ ul li{
 
 p{
  color: #828489;
+ margin-bottom: 0;
 }
 
 a{
@@ -1260,6 +1261,7 @@ a.btn-hover-bg-600:focus{
 
 .offer-restaurant-card{
     margin: 0 !important
+<<<<<<< HEAD
 }
 
 /*
@@ -1499,3 +1501,6 @@ a.btn-hover-bg-600:focus{
     text-transform: uppercase;
     color: #a8a8a8;
 }
+=======
+}
+>>>>>>> e928dd22e58cfc7757d430309e501db9f77193b0

@@ -131,3 +131,17 @@ i {
     width: 180px;
     height: 180px;
 }
+
+.booking-grid-links i {
+    margin-right: 10px;
+    font-size: 14px;
+}
+.booking-grid-links a {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--pri-color);
+}
+
+.booking-grid-links a:hover {
+    text-decoration: underline !important;
+}
