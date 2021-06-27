@@ -23,6 +23,7 @@ ul li{
 
 p{
  color: #828489;
+ margin-bottom: 0;
 }
 
 a{
@@ -1212,4 +1213,86 @@ a.btn-hover-bg-600:focus{
 
 .offer-restaurant-card{
     margin: 0 !important
+}
+
+
+/*
+    ==========================
+    === SEARCH RESULT PAGE ===
+    ==========================
+*/
+
+.db-restaurant-box {
+    background-color: #f7f7f8;
+}
+
+.db-restaurant-box img {
+    width: 180px;
+    height: 180px;
+}
+
+.booking-grid-links i {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.booking-grid-links a {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--pri-color);
+}
+
+.booking-grid-links a:hover {
+    text-decoration: underline !important;
+}
+
+.search-result-card-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.search-result-card-description p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.search-result-card-description .btn-box span {
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #28433c;
+    border-radius: 3px;
+    padding: 0 5px;
+    color: #fff;
+}
+
+.search-result-card-description .btn-box p {
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+#search-result-card-img {
+    width: 240px;
+}
+
+.search-result-header p {
+    font-size: 13px;
+    margin: 8px 0 0 5px;
+}
+
+.search-page-filters button {
+    font-size: 13px;
+}
+
+.search-page-filters button svg {
+    width: 13px;
+    margin-top: -3px;
+    margin-right: 3px;
+}
+
+.search-page-filters button:hover {
+    border-color: #000 !important;
 }
