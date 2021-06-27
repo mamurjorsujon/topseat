@@ -21,6 +21,8 @@
   <!-- style css -->
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
 </head>
@@ -108,7 +110,7 @@
             </div>
           </div>
           <div class="col-xl-6">
-            <div class="forker-right position-relative">
+            <div class="position-relative forker-right">
               <div class="mt-140">
                 <h3 class="fw-400 pb-4">Forkers Says:</h3>
                 <p class="fs-16 fw-500 text-secondary lh-base">Behind TheFork, there's a multi-talented team. From the
@@ -183,12 +185,12 @@
         <div class="row align-items-center">
           <div class="col-xl-6">
             <h2 class="fw-400 pb-4 dark-800">A team that sees to your every need!!</h2>
-            <p class="text-dark fw-500">TheFork expects the future Forker to have an unquestionable team spirit, to be
+            <p class="text-dark fw-500 mb-4 text-secondary fw-300">TheFork expects the future Forker to have an unquestionable team spirit, to be
               startup-minded, with a strong food & web sensitivity.</p>
-            <p class="text-dark fw-500">Passion, excellence, loyalty, team spirit, curiosity are some of our precious
+            <p class="text-dark fw-500 mb-4 text-secondary fw-300">Passion, excellence, loyalty, team spirit, curiosity are some of our precious
               values.Thanks to all of that, our 1000 Forkers, whatever their position is, work daily to offer our
               customers a personalized experience and high quality service.</p>
-            <p class="text-dark fw-500">So go for it! There's probably a job for you!</p>
+            <p class="text-dark fw-500 text-secondary fw-300">So go for it! There's probably a job for you!</p>
           </div>
           <div class="col-xl-6">
             <div class="position-relative">
@@ -206,11 +208,19 @@
     <!-- / Team -->
 
     <!-- Advertisements -->
-    <section class="mt-250 mb-5">
+    <section class="mt-250">
       <div class="container-1250">
         <div class="row">
-          <div class="col-xl-6">
-            <div class="Advertisement-model">
+          <div class="col-xl-7">
+            <div class="Advertisement-model position-relative ms-80">
+              <div class="py-3 text-center px-4 bg-primary-color wh-310 position-absolute Advertisement-direction">
+                <p class="fs-60 fw-100 text-light font-arial mb-0">2007</p>
+                <p class="fs-20 fw-400 text-light">partner restaurants</p>
+
+                <p class="fs-60 fw-100 text-light font-arial mb-0">1000</p>
+                <p class="fs-20 fw-400 text-light">collaborators</p>
+              </div>
+
               <h2>Discover our job advertisements</h2>
               <div class="liste-offres">
                 <div class="offre">
@@ -222,11 +232,11 @@
                   <div class="type">Permanent - Paris</div>
                 </div>
               </div>
-              <!-- <a class="btn" href="#!" target="_blank">See all job advertisements</a> -->
+              <a class="py-2 btn font-13 text-uppercase position-absolute bg-primary-color Advertisement-btn text-light fw-600" href="#!">See all job advertisements</a>
             </div>
           </div>
 
-          <div class="col-xl-6">
+          <div class="col-xl-5">
             <div class="advertisement-info text-center">
               <h4 class="fw-300 text-secondary">They tell you more…</h4>
               <div class="mt-5 ">
@@ -245,13 +255,77 @@
     </section>
     <!-- / Advertisements -->
 
+    <!-- Press Review -->
+    <section class="mt-160">
+      <div class="container-1250">
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="forker-say-slider owl-carousel">
+                <img class="w-100" src="https://about.thefork.com/wp-content/uploads/2016/10/actu.png" alt="">
+                <img class="w-100" src="https://about.thefork.com/wp-content/uploads/2016/10/actu2.jpg" alt="">
+                <img class="w-100" src="https://about.thefork.com/wp-content/uploads/2016/10/actu2.jpg" alt="">
+            </div>
+
+            <a href="" class="bg-primary-color p-5 d-flex justify-content-between align-items-center">
+              <div>
+                <strong class="text-uppercase font-13 text-light">.press</strong>
+                <p class="mb-0 text-light font-md">Download TheSaloon's press kit</p>
+              </div>
+              <img class="image-colors" src="https://about.thefork.com/wp-content/themes/lafourchettecorpo/img/ico-dl-green.png" alt="">
+            </a>
+          </div>
+          <div class="col-xl-6">
+            <div class="press-review-right ps-5 py-4">
+              <h2 class="fw-300 pb-4 dark-800 ">TheSaloon press review</h2>
+              <ul class="p-0 m-0 press-review-item">
+                <li>
+                  <p class="font-11 fw-800 mb-2 dark-300">OUR NEWS SECTION</p>
+                  <a href="" class="position-relative review-download-btn text-dark">Eatigo receives follow-on investment from TripAdvisor to further its leadership position beyond Southeast Asia </a>
+                  <p class="font-11 fw-700 dark-300">13/10/2016</p>
+                </li>
+
+                <li>
+                  <p class="font-11 fw-800 mb-2 dark-300">OUR NEWS SECTION</p>
+                  <a href="" class="position-relative review-download-btn text-dark">TheSaloon restaurants now bookable on Apple Maps </a>
+                  <p class="font-11 fw-700 dark-300">13/10/2016</p>
+                </li>
+
+                <li>
+                  <p class="font-11 fw-800 mb-2 dark-300">OUR NEWS SECTION</p>
+                  <a href="" class="position-relative review-download-btn text-dark">TheSaloon Announces Investment in Eatigo</a>
+                  <p class="font-11 fw-700 dark-300">13/10/2016</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / Press Review -->
+
+    <!-- Contact -->
+    <section class="py-100">
+      <div class="container-1250">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center">
+              <h2 class="fw-100 dark-800 fs-46">Would you like to contact us?</h2>
+              <p class="dark-300 mb-3">Any question, any suggestion, any comment ?</p>
+              <a href="javascript:" class="color-primary about-contact-btn pb-1">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / Contact -->
+
   </main>
   <!-- footer -->
   <footer>
     <div class="footer-top-bar">
       <div class="container">
         <!-- Footer Top -->
-        <div class="pt-4 pb-2">
+        <div class="pt-4 pb-4">
           <p class="text-light align-content-middle">Discover and book the best restaurants</p>
         </div>
       </div>
@@ -316,6 +390,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
   <!-- Custom js  -->
   <script src="js/main.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
   <!-- Slider Controller -->
   <script src="js/slides.js"></script>
 </body>

@@ -329,3 +329,34 @@ $(".topseat-single-related-slider").slick({
 		},
 	],
 });
+
+// about page
+
+// $(".forker-say-slider").slick({
+// 	infinite: false,
+// 	speed: 300,
+// 	slidesToShow: 1,
+// 	slidesToScroll: 1,
+// 	dots: true,
+// 	arrows: false,
+// });
+
+
+$(".owl-carousel").owlCarousel({
+	loop:true,
+	margin:0,
+	nav:false,
+	dots: true,
+	responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+  });
+
