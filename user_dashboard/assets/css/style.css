@@ -162,3 +162,22 @@ i {
 .fw-600{
     font-weight: 600;
 }
+
+.fw-500{
+    font-weight: 500;
+}
+
+.fs-13{
+    font-size: 13px;
+}
+.color-primary{
+    color: var(--pri-color);
+}
+
+.book-again-sm-btn:hover{
+    text-decoration: underline;
+}
+
+.book-again-sm-btn{
+    color: var(--pri-color) !important;
+}
