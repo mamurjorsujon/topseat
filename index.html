@@ -40,10 +40,12 @@
             <h4 class="text-dark mt-1">TopSeat</h4>
         </a>
 
-        <div class="main-header d-flex">
-          <i class="fa fa-search user-icon-lg fa-sm me-2 d-block d-md-none"></i>
-          <i class="far fa-user-circle user-icon-md"></i>
-          <a href="javascript:" id="user-info-btn" class="text-decoration-none d-none d-md-block">LOGIN</a>
+        <div class="d-flex align-items-center">
+          <a href="javascript:" class="d-block d-md-none p-1"><i class="fa fa-search user-icon-lg fa-sm me-2"></i></a>
+
+          <a href="javascript:" id="user-info-btn" class="text-decoration-none d-block d-md-none p-1"><i class="far fa-user-circle user-icon-md"></i></a>
+
+          <a href="javascript:" id="user-info-btn" class="text-decoration-none d-none d-md-block color-primary"><i class="far fa-user-circle user-icon-md"></i> LOGIN</a>
         </div>
       </div>
     </nav>
@@ -1433,11 +1435,11 @@
 
                                             <div class="profile-radio form-group mt-3">
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="gender" id="men" value="men">
+                                                    <input class="form-check-input box-shadow-none" type="radio" name="gender" id="men" value="men">
                                                     <label class="form-check-label" for="men">MAN</label>
                                                 </div>
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="gender" id="women" value="women">
+                                                    <input class="form-check-input box-shadow-none" type="radio" name="gender" id="women" value="women">
                                                     <label class="form-check-label" for="women">Women</label>
                                                 </div>
                                             </div>
@@ -1445,13 +1447,13 @@
                                                 <div class="col-xl-6 col-sm-6 col-12 mb-3 mb-sm-0">
                                                     <div class="form-group">
                                                         <label for="">First Name</label>
-                                                        <input type="text" class="border-bottom border-0 border-1 form-control" name="">
+                                                        <input type="text" class=" box-shadow-none border-bottom border-0 border-1 form-control" name="">
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-6 col-sm-6 col-12 ">
                                                     <div class="form-group">
                                                         <label for="">Sure Name</label>
-                                                        <input type="text" class="border-bottom border-0 border-1 form-control" name="">
+                                                        <input type="text" class=" box-shadow-none border-bottom border-0 border-1 form-control" name="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1460,7 +1462,7 @@
                                                 <div class="col-xl-3 col-5">
                                                     <div class="form-group">
                                                         <label for=""></label>
-                                                        <select class="form-select border-bottom border-0 border-1"
+                                                        <select class="form-select box-shadow-none  border-bottom border-0 border-1"
                                                             aria-label="Default select example">
                                                             <option value="">+880</option>
                                                             <option value="">Two</option>
@@ -1471,7 +1473,7 @@
                                                 <div class="col-xl-9 col-7">
                                                     <div class="form-group">
                                                         <label for="">Phone Number</label>
-                                                        <input type="text" class="border-bottom border-0 border-1 form-control" name="">
+                                                        <input type="text" class=" box-shadow-none border-bottom border-0 border-1 form-control" name="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1479,11 +1481,11 @@
                                             <div class="row mt-5">
                                                 <label for="">Date of Birth</label>
                                                 <div class="col-xl-4 col-md-4 col-sm-6 mb-3 mb-sm-0">
-                                                    <input type="text" class="border-bottom border-0 border-1 form-control"
+                                                    <input type="text" class=" box-shadow-none border-bottom border-0 border-1 form-control"
                                                         placeholder="Date">
                                                 </div>
                                                 <div class="col-xl-4 col-md-4 col-sm-6 mb-3 mb-sm-0">
-                                                    <select class="form-select border-bottom border-0 border-1"
+                                                    <select class=" box-shadow-none form-select border-bottom border-0 border-1"
                                                         aria-label="Default select example">
                                                         <option selected>Month</option>
                                                         <option value="">January</option>
@@ -1492,7 +1494,7 @@
                                                     </select>
                                                 </div>
                                                 <div class="col-xl-4 col-md-4 col-sm-12">
-                                                    <input type="text" class="border-bottom border-0 border-1 form-control"
+                                                    <input type="text" class=" box-shadow-none border-bottom border-0 border-1 form-control"
                                                         placeholder="Year">
                                                 </div>
                                             </div>
@@ -1534,11 +1536,11 @@
                                                         <label for="exampleInputEmail1" class="form-label current_pass_label">Current
                                                             Password</label>
                                                         <input type="password"
-                                                            class="current_pass_inp form-control border-bottom border-0 border-1" id="">
+                                                            class="box-shadow-none current_pass_inp form-control border-bottom border-0 border-1" id="">
                                                     </div>
                                                     <div class="mb-3">
                                                         <label for="exampleInputPassword1" class="form-label">New Password</label>
-                                                        <input type="password" class="form-control border-bottom border-0 border-1"
+                                                        <input type="password" class="box-shadow-none form-control border-bottom border-0 border-1"
                                                             id="">
                                                     </div>
 
@@ -1564,11 +1566,11 @@
                                                         <label for="exampleInputEmail1" class="form-label current_pass_label">Email
                                                             Address *</label>
                                                         <input type="password"
-                                                            class="current_pass_inp form-control border-bottom border-0 border-1" id="">
+                                                            class="box-shadow-none current_pass_inp form-control border-bottom border-0 border-1" id="">
                                                     </div>
                                                     <div class="mb-3">
                                                         <label for="exampleInputPassword1" class="form-label">Password</label>
-                                                        <input type="password" class="form-control border-bottom border-0 border-1"
+                                                        <input type="password" class="box-shadow-none form-control border-bottom border-0 border-1"
                                                             id="">
                                                     </div>
 
@@ -1920,7 +1922,7 @@
     <div class="footer-top-bar">
       <div class="container">
         <!-- Footer Top -->
-        <div class="pt-4 pb-2">
+        <div class="py-4">
             <p class="text-light align-content-middle">Discover and book the best restaurants</p>
         </div>
       </div>
@@ -1936,27 +1938,27 @@
             <img src="https://www.thefork.se/statics/213784c8994af0ce61d59087611ef076.svg" alt="">
           </div>
           <div class="col-xl-3 col-md-3 col-sm-6 col-12 mb-4 mb-md-0">
-            <a class="d-block text-light text-decoration-none" href="#!">If</a>
-            <a class="d-block text-light text-decoration-none" href="#!">Contact</a>
-            <a class="d-block text-light text-decoration-none" href="#!">Do you run a restaurant</a>
-            <a class="d-block text-light text-decoration-none" href="#!">Common question and answers</a>
-            <a class="d-block text-light text-decoration-none" href="#!">We have vacancies</a>
+            <a class="d-block text-light text-decoration-none fs-14 mb-2" href="#!">If</a>
+            <a class="d-block text-light text-decoration-none fs-14 mb-2" href="#!">Contact</a>
+            <a class="d-block text-light text-decoration-none fs-14 mb-2" href="#!">Do you run a restaurant</a>
+            <a class="d-block text-light text-decoration-none fs-14 mb-2" href="#!">Common question and answers</a>
+            <a class="d-block text-light text-decoration-none fs-14" href="#!">We have vacancies</a>
           </div>
           <div class="col-xl-3 col-md-3 col-sm-6 col-12 mb-4 mb-md-0">
-            <a class="d-block text-light text-decoration-none" href="#!">Bonus program</a>
-            <a class="d-block text-light text-decoration-none" href="#!">Terms of use</a>
-            <a class="d-block text-light text-decoration-none" href="#!">Privacy and cookie policy(updated)</a>
-            <a class="d-block text-light text-decoration-none" href="#!">Accept Cookies</a>
-            <a class="d-block text-light text-decoration-none" href="#!">MICHELIN Guide Partnership</a>
+            <a class="d-block text-light text-decoration-none fs-14 mb-2" href="#!">Bonus program</a>
+            <a class="d-block text-light text-decoration-none fs-14 mb-2" href="#!">Terms of use</a>
+            <a class="d-block text-light text-decoration-none fs-14 mb-2" href="#!">Privacy and cookie policy(updated)</a>
+            <a class="d-block text-light text-decoration-none fs-14 mb-2" href="#!">Accept Cookies</a>
+            <a class="d-block text-light text-decoration-none fs-14" href="#!">MICHELIN Guide Partnership</a>
           </div>
           <div class="col-xl-3 col-md-3 col-sm-6 col-12 last-col">
             <div class="d-flex text-light">
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-facebook"></i>
+              <a href="javascript:"><i class="fab fa-instagram text-light"></i></a>
+              <a href="javascript:"><i class="fab fa-facebook text-light"></i></a>
             </div>
-            <h5 class="text-light mt-2 font-arial font-md fw-600 copyright-font-size-sm">
+            <p class="text-light mt-2 fw-normal fs-13 font-arial">
               © 2021 LA FOURCHETTE SAS - WITH EXCLUSIVE RIGHTS
-            </h5>
+            </p>
           </div>
         </div>
 

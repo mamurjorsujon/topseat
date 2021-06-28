@@ -32,6 +32,10 @@ a {
 .bg-silver {
     background-color: #f7f7f8;
 }
+
+.font-arial{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
 /*=====================
 /* Root Color Variable
 ======================*/
@@ -84,15 +88,15 @@ i {
     color: #3C4048;
     line-height: 18px;
 }
-
+/*
 .form-control, .form-select {
     border-radius: 0;
     border-color: #7e838d !important;
-    /* padding: 2px 10px; */
+    padding: 2px 10px;
     font-size: 14px;
     font-weight: 600;
-}
-.form-control:focus, .form-select {
+} */
+.box-shadow-none:focus {
     color: #212529;
     background-color: rgb(247, 247, 248) !important;
     border: none;
