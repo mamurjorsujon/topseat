@@ -88,7 +88,7 @@ i {
 .form-control, .form-select {
     border-radius: 0;
     border-color: #7e838d !important;
-    padding: 2px 10px;
+    /* padding: 2px 10px; */
     font-size: 14px;
     font-weight: 600;
 }
@@ -162,3 +162,69 @@ i {
 .fw-600{
     font-weight: 600;
 }
+
+.fw-500{
+    font-weight: 500;
+}
+
+.fs-13{
+    font-size: 13px;
+}
+.color-primary{
+    color: var(--pri-color);
+}
+
+.book-again-sm-btn:hover{
+    text-decoration: underline;
+}
+
+.book-again-sm-btn{
+    color: var(--pri-color) !important;
+}
+
+.not-show-bg{
+    background: #E99B9F;
+}
+
+.cancel{
+    background: #E99B9F;
+}
+
+.user-dashboard{
+    transition: .1s ease-in-out;
+    -webkit-transition: .1s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    -ms-transition: .1s ease-in-out;
+    -o-transition: .1s ease-in-out;
+}
+
+.user-login-dashboard{
+    right: 0;
+    z-index: 9999;
+    transition: .1s ease-in-out;
+    -webkit-transition: .1s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    -ms-transition: .1s ease-in-out;
+    -o-transition: .1s ease-in-out;
+}
+
+.overlay-color{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.overlay-color{
+    background: #fff;
+    z-index: 9999;
+    opacity: .75;
+}
+
+/* .user-dashboard.show-user-dashboard{
+    transform: translateX(0%) !important;
+    -webkit-transform: translateX(0%) !important;
+    -moz-transform: translateX(0%) !important;
+    -ms-transform: translateX(0%) !important;
+    -o-transform: translateX(0%) !important;
+} */

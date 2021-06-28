@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $("#number-of-people").owlCarousel({
       loop:true,
       margin:8,
@@ -41,17 +42,51 @@ $(document).ready(function(){
           }
       }
     });
+
+    $(".single_page_carousel_inner").slick({
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: $(".carousel-control-prev"),
+        nextArrow: $(".carousel-control-next"),
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                },
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
+    });
+
+    $('.image-lightshort').magnificPopup({
+        type: 'image',
+        verticalFit: true,
+        gallery:{
+            enabled:true
+        },
+        image: {
+            titleSrc: 'title'
+          }
+      });
+
+
   });
 
-
-
-  $('.image-lightshort').magnificPopup({
-    type: 'image',
-    verticalFit: true,
-    gallery:{
-        enabled:true
-    },
-    image: {
-        titleSrc: 'title'
-      }
-  });
