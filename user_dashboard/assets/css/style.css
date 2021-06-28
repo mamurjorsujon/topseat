@@ -181,3 +181,34 @@ i {
 .book-again-sm-btn{
     color: var(--pri-color) !important;
 }
+
+.not-show-bg{
+    background: #E99B9F;
+}
+
+.cancel{
+    background: #E99B9F;
+}
+
+.user-dashboard{
+    background: rgba(0, 0, 0, .5) !important;
+    width: 100%;
+}
+
+.user-login-dashboard{
+    right: 0;
+    z-index: 9999;
+}
+
+.overlay-color{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.overlay-color{
+    background: #fff;
+    z-index: 9999;
+    opacity: .75;
+}
