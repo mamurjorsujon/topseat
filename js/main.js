@@ -6,9 +6,14 @@ $(document).ready(function(){
     new PerfectScrollbar(leftScrollBar);
 
     $('#user-info-btn').on('click', function(){
-        alert();
-        // $('#user-info-show').show();
+        $('#user-info-show').addClass('d-block');
+    });
+
+    $('#user-dashboard-close-btn').on('click', function(){
+        $('#user-info-show').removeClass('d-block');
+        $('#user-info-show').addClass('d-none');
     })
+
 
 
 });

@@ -88,7 +88,7 @@ i {
 .form-control, .form-select {
     border-radius: 0;
     border-color: #7e838d !important;
-    padding: 2px 10px;
+    /* padding: 2px 10px; */
     font-size: 14px;
     font-weight: 600;
 }
@@ -191,13 +191,21 @@ i {
 }
 
 .user-dashboard{
-    background: rgba(0, 0, 0, .5) !important;
-    width: 100%;
+    transition: .1s ease-in-out;
+    -webkit-transition: .1s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    -ms-transition: .1s ease-in-out;
+    -o-transition: .1s ease-in-out;
 }
 
 .user-login-dashboard{
     right: 0;
     z-index: 9999;
+    transition: .1s ease-in-out;
+    -webkit-transition: .1s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    -ms-transition: .1s ease-in-out;
+    -o-transition: .1s ease-in-out;
 }
 
 .overlay-color{
@@ -212,3 +220,11 @@ i {
     z-index: 9999;
     opacity: .75;
 }
+
+/* .user-dashboard.show-user-dashboard{
+    transform: translateX(0%) !important;
+    -webkit-transform: translateX(0%) !important;
+    -moz-transform: translateX(0%) !important;
+    -ms-transform: translateX(0%) !important;
+    -o-transform: translateX(0%) !important;
+} */

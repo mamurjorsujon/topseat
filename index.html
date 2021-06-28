@@ -18,7 +18,7 @@
   <!-- style css -->
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/main.css" />
-  <!-- <link rel="stylesheet" href="user_dashboard/assets/css/style.css" /> -->
+  <link rel="stylesheet" href="user_dashboard/assets/css/style.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
 </head>
@@ -1354,7 +1354,7 @@
       </section>
 
       <!-- user dashboard -->
-      <section class="user-dashboard d-none" id="user-info-show">
+      <section class="user-dashboard overflow-hidden" id="user-info-show" style="display: none;">
         <div class="position-fixed overlay-color"></div>
         <div class="container shadow px-0 position-fixed top-0 vh-100 user-login-dashboard bg-light">
             <div class="row g-0">
@@ -1413,8 +1413,8 @@
                 <div class="col-xl-9 col-lg-9">
                      <!-- dashboard right content -->
                      <div class="bg-light shadow-sm py-3 text-end px-3">
-                       <a href="javascript:" class="text-dark p-2">
-                         <i class="fa fa-times fa-sm"></i>
+                       <a href="javascript:" class="p-2" id="user-dashboard-close-btn">
+                         <i class="fa fa-times fa-sm text-dark"></i>
                        </a>
                      </div>
                      <div class="right-panel mt-3 ms-0 ms-sm-3 vh-100 position-relative">
