@@ -103,7 +103,11 @@ i {
 .btn-primary {
     background-color: var(--pri-color);
     border: none;
-    padding: 12px 25px;
+    padding: 8px 15px;
+}
+
+.fs-14{
+    font-size: 14px !important;
 }
 
 .btn-primary:hover {
@@ -144,4 +148,17 @@ i {
 
 .booking-grid-links a:hover {
     text-decoration: underline !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--pri-color) !important;
+    border-color: var(--pri-color) !important;
+}
+
+.form-switch .form-check-input:focus {
+    border-color: var(--pri-color) !important;
+}
+
+.fw-600{
+    font-weight: 600;
 }

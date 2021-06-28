@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Google Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <!-- Perfect Scrollbar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.1/css/perfect-scrollbar.min.css" />
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="user_dashboard/assets/css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+        button:focus{
+            background: #437132;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <section class="mt-5">
+            <div class="container shadow px-0">
+                <div class="row g-0">
+                    <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                        <!-- dashboard left items -->
+                        <div class="left-panel position-relative vh-100">
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <div class="d-flex justify-content-center flex-column">
+                                    <img style="width: 100px; height: 100px;" class="d-block rounded-circle mx-auto"
+                                        src="https://www.seekpng.com/png/full/139-1395950_is-the-consumer-or-supply-chain-partner-expected.png"
+                                        alt="">
+                                    <h2 class="fw-lighter text-center mt-2">mamu u.</h2>
+                                    <span class="text-center">0 Yums</a>
+                                </div>
+
+                                <ul class="list-group mt-3">
+                                    <li class="list-group-item">
+                                        <a href="javascript:" class="py-2 d-block" id="my-personal-tab" data-bs-toggle="pill" data-bs-target="#my-personal" role="tab" aria-controls="my-personal" aria-selected="true"><i class="far fa-user me-3"></i> My personal information</a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a class="py-2 d-block" href="javascript:" id="my-booking-tab" data-bs-toggle="pill" data-bs-target="#my-booking" role="tab" aria-controls="my-booking" aria-selected="false"><i
+                                                class="fas fa-book-open me-3"></i> My Booking</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a class="py-2 d-block" href="javascript:" id="my-favorite-tab" data-bs-toggle="pill" data-bs-target="#my-favorite" role="tab" aria-controls="my-favorite" aria-selected="false"><i
+                                                class="far fa-heart me-3"></i> My Favorite</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a class="py-2 d-block" href="javascript:" id="my-review-tab" data-bs-toggle="pill" data-bs-target="#my-review" type="button" role="tab" aria-controls="my-review" aria-selected="false">
+                                            <i class="far fa-comment me-3"></i> My Reviews</a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a class="py-2 d-block" href="#"><i class="far fa-user me-3"></i> My
+                                            Bonus Profile</a>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <a class="py-2 d-block" href="#"><i class="fas fa-cube me-3"></i> My
+                                            Reference Space</a></li>
+                                    <li class="list-group-item"><a class="py-2 d-block" href="#"><i class="fas fa-home me-3"></i>
+                                            Register My Restaurant</a></li>
+                                    <li class="list-group-item"><a class="py-2 d-block" href="#"><i class="fas fa-info-circle me-3"></i>
+                                            Help</a></li>
+
+                                    <li class="list-group-item"><a class="py-2 d-block" href="#"><i class="fas fa-sign-in-alt me-3"></i>
+                                            Logout</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-9 col-lg-9">
+                         <!-- dashboard right content -->
+                         <div class="right-panel vh-100 position-relative">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="my-personal" role="tabpanel" aria-labelledby="my-personal-tab">
+
+                                    <h4>My profile</h4>
+
+                                    <div class="card mt-4 p-4">
+                                        <div class="profile-info card-body p-0 p-sm-2">
+                                            <form action="">
+                                                <h6 class="fw-600">My profile</h6>
+                                                <p>Your contact details are sent to the restaurant when you book a table.</p>
+
+                                                <div class="profile-radio form-group mt-3">
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="gender" id="men" value="men">
+                                                        <label class="form-check-label" for="men">MAN</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="gender" id="women" value="women">
+                                                        <label class="form-check-label" for="women">Women</label>
+                                                    </div>
+                                                </div>
+                                                <div class="row profile-name mt-3">
+                                                    <div class="col-xl-6 col-sm-6 col-12 mb-3 mb-sm-0">
+                                                        <div class="form-group">
+                                                            <label for="">First Name</label>
+                                                            <input type="text" class="border-bottom border-0 border-1 form-control" name="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-sm-6 col-12 ">
+                                                        <div class="form-group">
+                                                            <label for="">Sure Name</label>
+                                                            <input type="text" class="border-bottom border-0 border-1 form-control" name="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row mt-5">
+                                                    <div class="col-xl-3 col-5">
+                                                        <div class="form-group">
+                                                            <label for=""></label>
+                                                            <select class="form-select border-bottom border-0 border-1"
+                                                                aria-label="Default select example">
+                                                                <option value="">+880</option>
+                                                                <option value="">Two</option>
+                                                                <option value="">Three</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-9 col-7">
+                                                        <div class="form-group">
+                                                            <label for="">Phone Number</label>
+                                                            <input type="text" class="border-bottom border-0 border-1 form-control" name="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row mt-5">
+                                                    <label for="">Date of Birth</label>
+                                                    <div class="col-xl-4 col-md-4 col-sm-6 mb-3 mb-sm-0">
+                                                        <input type="text" class="border-bottom border-0 border-1 form-control"
+                                                            placeholder="Date">
+                                                    </div>
+                                                    <div class="col-xl-4 col-md-4 col-sm-6 mb-3 mb-sm-0">
+                                                        <select class="form-select border-bottom border-0 border-1"
+                                                            aria-label="Default select example">
+                                                            <option selected>Month</option>
+                                                            <option value="">January</option>
+                                                            <option value="">February</option>
+                                                            <option value="">March</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-xl-4 col-md-4 col-sm-12">
+                                                        <input type="text" class="border-bottom border-0 border-1 form-control"
+                                                            placeholder="Year">
+                                                    </div>
+                                                </div>
+
+                                                <p class="mt-4">* Required fields</p>
+
+                                                <button type="submit" class="btn btn-md fw-600 mt-3 btn-primary text-uppercase fs-14">update</button>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div class="card mt-4 p-4">
+                                        <div class="profile-info card-body p-0 p-sm-2">
+                                            <h5 class="fw-600 fs-18">Manage my notifications</h5>
+                                            <h6>Newsletter</h6>
+
+                                            <div class="form-check form-switch cursor-pointer mt-4">
+                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
+                                                <label class="form-check-label" for="flexSwitchCheckChecked">I agree to receive offers and
+                                                    communications from TheFork via text message</label>
+                                            </div>
+
+                                            <div class="form-check form-switch cursor-pointer mt-2">
+                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
+                                                <label class="form-check-label" for="flexSwitchCheckChecked">I agree to receive offers and
+                                                    communications from TheFork via email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card mt-4 p-4">
+                                        <div class="profile-info card-body p-0 p-sm-2">
+                                            <form action="" id="change-password">
+                                                <h6 class="mb-4 fw-600">Change my password</h6>
+
+                                                <div class="row">
+                                                    <div class="col-xl-5 col-md-6 col-12">
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label current_pass_label">Current
+                                                                Password</label>
+                                                            <input type="password"
+                                                                class="current_pass_inp form-control border-bottom border-0 border-1" id="">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">New Password</label>
+                                                            <input type="password" class="form-control border-bottom border-0 border-1"
+                                                                id="">
+                                                        </div>
+
+                                                        <p class="mt-4">* Required fields</p>
+
+                                                        <button type="submit" class="btn btn-md fw-600 btn-primary text-uppercase mt-3 fs-14">change
+                                                            password</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div class="card mt-4 p-4">
+                                        <div class="profile-info card-body p-0 p-sm-2">
+                                            <form action="" id="change-password">
+                                                <h6 class="fw-600">Update my Email Address</h6>
+                                                <p>Enter your password to update your email address.</p>
+
+                                                <div class="row mt-5">
+                                                    <div class="col-xl-5 col-md-6 col-12">
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label current_pass_label">Email
+                                                                Address *</label>
+                                                            <input type="password"
+                                                                class="current_pass_inp form-control border-bottom border-0 border-1" id="">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                            <input type="password" class="form-control border-bottom border-0 border-1"
+                                                                id="">
+                                                        </div>
+
+                                                        <p class="mt-4">* Required fields</p>
+
+                                                        <button type="submit" class="btn btn-primary btn-md fw-600  text-uppercase mt-3 fs-14">update your email
+                                                            address</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div class="card mt-4 p-4">
+                                        <div class="profile-info card-body p-0 p-sm-2">
+                                            <div>
+                                                <h6 class="mb-4 fw-600">If you really want to leave us…</h6>
+
+                                                <div>
+                                                    <p>- You will lose access to all TheFork services</p>
+                                                    <p>- We cancel all your bookings</p>
+                                                    <p>- You'll lose all your Yums</p>
+                                                </div>
+
+                                                <button type="submit" class="btn-close-acc text-uppercase border-0 fs-14 btn-md fw-600  rounded px-3 py-2 mt-2">close
+                                                    my account</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="tab-pane fade" id="my-booking" role="tabpanel" aria-labelledby="my-booking-tab">
+
+                                    <h4>My Booking</h4>
+
+                                    <div class="card mt-4 p-4">
+                                        <div class="profile-info card-body">
+                                            <div class="card">
+                                                <div class="d-flex position-relative db-restaurant-box">
+                                                    <div class="flex-shrink-0">
+                                                        <img src="https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/507ddf0e-04e1-4aec-bbd9-9493d3439278/6e5e2c1f-af95-4bb7-b1bc-7020fa794ee6.jpg" alt="...">
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3 py-3">
+                                                        <h4>Zacca Trattoria ar 20</h4>
+                                                        <p>Via Domenico Millelire, 16, 00136 Rom</p>
+
+                                                        <p class="position-absolute end-0 top-0 bg-success text-light px-4 py-2 text-uppercase shadow-lg">Confirmed</p>
+
+                                                        <div class="d-flex gap-3 position-absolute bottom-0 pb-3">
+                                                            <div>
+                                                                <p>Date</p>
+                                                                <h6>Sun 27 June</h6>
+                                                            </div>
+                                                            <div>
+                                                                <p>Time</p>
+                                                                <h6>20:30</h6>
+                                                            </div>
+                                                            <div>
+                                                                <p>People</p>
+                                                                <h6>3</h6>
+                                                            </div>
+
+                                                            <div>
+                                                                <p>Offer</p>
+                                                                <h6>20%</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="booking-grid-links d-flex justify-content-between px-5 py-3">
+                                                    <a href="#"><i class="fas fa-long-arrow-alt-right"></i>Get direction</a>
+                                                    <a href="#" class="border-start border-end px-5"><i class="fas fa-pen"></i>Change my booking</a>
+                                                    <a href="#"><i class="fas fa-trash"></i>Get direction</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="card my-4">
+                                                <div class="d-flex position-relative db-restaurant-box">
+                                                    <div class="flex-shrink-0">
+                                                        <img src="https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/28726f2d-ade2-4b47-ba9b-c7a47e1f4cb1/0f04c11c-ca81-4bba-9261-f04f07c6382e.jpg" alt="...">
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3 py-3">
+                                                        <h4>Zacca Trattoria ar 20</h4>
+                                                        <p>Via Domenico Millelire, 16, 00136 Rom</p>
+
+                                                        <p class="position-absolute end-0 top-0 bg-success text-light px-4 py-2 text-uppercase shadow-lg">Confirmed</p>
+
+                                                        <div class="d-flex gap-3 position-absolute bottom-0 pb-3">
+                                                            <div>
+                                                                <p>Date</p>
+                                                                <h6>Sun 27 June</h6>
+                                                            </div>
+                                                            <div>
+                                                                <p>Time</p>
+                                                                <h6>20:30</h6>
+                                                            </div>
+                                                            <div>
+                                                                <p>People</p>
+                                                                <h6>3</h6>
+                                                            </div>
+
+                                                            <div>
+                                                                <p>Offer</p>
+                                                                <h6>20%</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="booking-grid-links d-flex justify-content-between px-5 py-3">
+                                                    <a href="#"><i class="fas fa-long-arrow-alt-right"></i>Get direction</a>
+                                                    <a href="#" class="border-start border-end px-5"><i class="fas fa-pen"></i>Change my booking</a>
+                                                    <a href="#"><i class="fas fa-trash"></i>Get direction</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="card my-4">
+                                                <div class="d-flex position-relative db-restaurant-box">
+                                                    <div class="flex-shrink-0">
+                                                        <img src="https://res.cloudinary.com/tf-lab/image/upload/f_auto,q_auto,w_480,h_270/restaurant/507ddf0e-04e1-4aec-bbd9-9493d3439278/6e5e2c1f-af95-4bb7-b1bc-7020fa794ee6.jpg" alt="...">
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3 py-3">
+                                                        <h4>Zacca Trattoria ar 20</h4>
+                                                        <p>Via Domenico Millelire, 16, 00136 Rom</p>
+
+                                                        <p class="position-absolute end-0 top-0 bg-danger text-light px-4 py-2 text-uppercase shadow-lg">Missed arrival</p>
+
+                                                        <div class="d-flex gap-3 position-absolute bottom-0 pb-3">
+                                                            <div>
+                                                                <p>Date</p>
+                                                                <h6>Sun 27 June</h6>
+                                                            </div>
+                                                            <div>
+                                                                <p>Time</p>
+                                                                <h6>20:30</h6>
+                                                            </div>
+                                                            <div>
+                                                                <p>People</p>
+                                                                <h6>3</h6>
+                                                            </div>
+
+                                                            <div>
+                                                                <p>Offer</p>
+                                                                <h6>20%</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="booking-grid-links d-flex justify-content-between px-5 py-3">
+                                                    <a href="#"><i class="fas fa-long-arrow-alt-right"></i>Get direction</a>
+                                                    <a href="#" class="border-start border-end px-5"><i class="fas fa-pen"></i>Change my booking</a>
+                                                    <a href="#"><i class="fas fa-trash"></i>Get direction</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="tab-pane fade" id="my-favorite" role="tabpanel" aria-labelledby="my-favorite-tab">
+
+                                    <h4>My Favorite</h4>
+
+
+                                    <img src="https://www.thefork.se/statics/85f58260394dfb8202443905e2f32f6d.svg" class="w-25 d-block mx-auto mt-5" alt="">
+
+                                    <div class="mt-5 text-center">
+                                        <h6>No restaurants yet</h6>
+                                        <p>Search for restaurants and add your favorites here.</p>
+
+                                        <button type="submit" class="btn btn-primary text-uppercase mt-3 fs-14 btn-md fw-600 ">find a restaurant</button>
+                                    </div>
+
+                                </div>
+
+                                <div class="tab-pane fade" id="my-review" role="tabpanel" aria-labelledby="my-review-tab">
+
+                                    <h4>My Review</h4>
+                                    <img src="https://www.thefork.se/statics/85f58260394dfb8202443905e2f32f6d.svg" class="w-25 d-block mx-auto mt-5" alt="">
+
+                                    <div class="mt-5 text-center">
+                                        <h6>No restaurants yet</h6>
+                                        <p>Search for restaurants and add your favorites here.</p>
+
+                                        <button type="submit" class="btn btn-primary text-uppercase mt-3 btn-md fw-600 fs-14">find a restaurant</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- Bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+    <!-- Perfect Scrollbar -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.1/perfect-scrollbar.min.js"></script>
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
