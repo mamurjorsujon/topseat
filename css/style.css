@@ -1665,3 +1665,7 @@ a.btn-hover-bg-600:focus{
 .login-form-box .top-seat-form input[type="submit"] {
     background-color: var(--pri-color);
 }
+
+#user-info-btn:hover{
+    color: var(--pri-color) !important;
+}
