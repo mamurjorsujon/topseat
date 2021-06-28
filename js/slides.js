@@ -359,9 +359,6 @@ $(".owl-carousel").owlCarousel({
         }
     }
   });
-
-  
-
   
 $(".single_page_carousel_inner").slick({
 	infinite: false,

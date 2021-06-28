@@ -1637,3 +1637,18 @@ a.btn-hover-bg-600:focus{
     font-size: 22px;
     line-height: 50px;
 }
+
+.login-form-box {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin: 100px 0 !important;
+}
+
+.login-form-box .top-seat-form input {
+    border: none;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: 1px solid rgba(17, 12, 46, 0.15);
+}
+
+.login-form-box .top-seat-form input[type="submit"] {
+    background-color: var(--pri-color);
+}
