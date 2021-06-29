@@ -13,6 +13,7 @@ function leftPanelClose(){
     document.getElementById("user-left-dashboard").style.display = "none";
 }
 
+// dashboard close btn
 function dashboardCloseBtn(){
     document.getElementById('user-dashboard-show').style.display = 'none';
 }
