@@ -1,19 +1,14 @@
 
-$(document).ready(function(){
-
-    // left side
-    const leftScrollBar = document.querySelector('.right-panel');
-    new PerfectScrollbar(leftScrollBar);
-
-    $('#user-info-btn').on('click', function(){
-        $('#user-info-show').addClass('d-block');
-    });
-
-    $('#user-dashboard-close-btn').on('click', function(){
-        $('#user-info-show').removeClass('d-block');
-        $('#user-info-show').addClass('d-none');
-    })
+// left side
+const leftScrollBar = document.querySelector('.right-panel');
+new PerfectScrollbar(leftScrollBar);
 
 
+function openDashboard(){
+    document.getElementById("user-dashboard-show").style.display = "block";
+}
 
-});
+
+function dashboardCloseBtn(){
+    document.getElementById("user-dashboard-show").style.display = "none";
+}

@@ -25,8 +25,10 @@
 </head>
 
 <body>
+
   <!-- header -->
   <header class="sticky-top">
+
     <div class="py-1 bg-light d-flex justify-content-end px-4">
       <div class="topbar text-uppercase">
         <a href="#" class="text-decoration-none border-end pe-2">Register my restaurant</a>
@@ -43,12 +45,13 @@
         <div class="d-flex align-items-center">
           <a href="javascript:" class="d-block d-md-none p-1"><i class="fa fa-search user-icon-lg fa-sm me-2"></i></a>
 
-          <a href="javascript:" id="user-info-btn" class="text-decoration-none d-block d-md-none p-1"><i class="far fa-user-circle user-icon-md"></i></a>
+          <a href="javascript:" onclick="openDashboard()" id="user-info-btn" class="text-decoration-none d-block d-md-none p-1"><i class="far fa-user-circle user-icon-md"></i></a>
 
-          <a href="javascript:" id="user-info-btn" class="text-decoration-none d-none d-md-block color-primary"><i class="far fa-user-circle user-icon-md"></i> LOGIN</a>
+          <a href="javascript:" id="user-info-btn" class="text-decoration-none d-none d-md-block color-primary" onclick="openDashboard()"><i class="far fa-user-circle user-icon-md"></i> LOGIN</a>
         </div>
       </div>
     </nav>
+
   </header>
   <!-- header end -->
 
@@ -1358,7 +1361,7 @@
       </section>
 
       <!-- user dashboard -->
-      <section class="user-dashboard overflow-hidden" id="user-info-show" style="display: none;">
+      <section class="user-dashboard overflow-hidden" id="user-dashboard-show" style="display: none;">
         <div class="position-fixed overlay-color"></div>
         <div class="container shadow px-0 position-fixed top-0 vh-100 user-login-dashboard bg-light">
             <div class="row g-0">
@@ -1417,7 +1420,7 @@
                 <div class="col-xl-9 col-lg-9">
                      <!-- dashboard right content -->
                      <div class="bg-light shadow-sm py-3 text-end px-3">
-                       <a href="javascript:" class="p-2" id="user-dashboard-close-btn">
+                       <a href="javascript:" class="p-2" onclick="dashboardCloseBtn()">
                          <i class="fa fa-times fa-sm text-dark"></i>
                        </a>
                      </div>
