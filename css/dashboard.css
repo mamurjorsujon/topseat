@@ -225,10 +225,14 @@ i {
     opacity: .75;
 }
 
-/* .user-dashboard.show-user-dashboard{
-    transform: translateX(0%) !important;
-    -webkit-transform: translateX(0%) !important;
-    -moz-transform: translateX(0%) !important;
-    -ms-transform: translateX(0%) !important;
-    -o-transform: translateX(0%) !important;
-} */
+.user-left-panel{
+    background: #F7F7F8;
+    width: 320px;
+    z-index: 9999;
+    right: 0;
+}
+
+.laft-panel-close{
+    z-index: 9999;
+    left: 0;
+}

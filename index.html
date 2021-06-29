@@ -42,12 +42,29 @@
             <h4 class="text-dark mt-1">TopSeat</h4>
         </a>
 
+        <!-- Authentication -->
         <div class="d-flex align-items-center">
-          <a href="javascript:" class="d-block d-md-none p-1"><i class="fa fa-search user-icon-lg fa-sm me-2"></i></a>
+          <div class="d-flex">
+            <a href="javascript:" class="d-block d-md-none p-1"><i class="fa fa-search user-icon-lg fa-sm me-2"></i></a>
 
-          <a href="javascript:" onclick="openDashboard()" id="user-info-btn" class="text-decoration-none d-block d-md-none p-1"><i class="far fa-user-circle user-icon-md"></i></a>
+            <!-- mobile -->
+            <a href="javascript:" id="user-info-btn" class="text-decoration-none d-block d-md-none p-1"><i class="far fa-user-circle user-icon-md"></i></a>
 
-          <a href="javascript:" id="user-info-btn" class="text-decoration-none d-none d-md-block color-primary" onclick="openDashboard()"><i class="far fa-user-circle user-icon-md"></i> LOGIN</a>
+            <!-- desktop -->
+            <a href="javascript:" id="user-info-btn" class="text-decoration-none d-none d-md-block color-primary" onclick="openDashboard()"><i class="far fa-user-circle user-icon-md"></i> LOGIN</a>
+          </div>
+
+          <!-- Auth == User -->
+          <div>
+            <a href="javascript:" class="d-flex justify-content-end" onclick="openDashboard()">
+              <div class="text-end me-2 d-none d-md-block">
+                <p class="mb-0 text-dark fw-600 fs-16">Topseat</p>
+                <p class="mb-0 text-secondary fw-300 fs-16 font-arial">0 Yums</p>
+              </div>
+              <img class="rounded-circle avatar-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKaiKiPcLJj7ufrj6M2KaPwyCT4lDSFA5oog&usqp=CAU" alt="">
+            </a>
+          </div>
+
         </div>
       </div>
     </nav>
@@ -1917,6 +1934,67 @@
             </div>
         </div>
       </section>
+
+      <!-- left dashboard -->
+      <div class="user-left-dashboard bg-light" id="user-left-dashboard" style="display: none;">
+        <div class="position-fixed overlay-color"></div>
+        <div class="position-fixed shadow top-0 user-left-panel left-panel position-relative vh-100 bg-light">
+
+          <div class="position-sticky top-0 w-100 laft-panel-close bg-light shadow-sm py-3 text-end px-3">
+            <a href="javascript:" class="p-2" onclick="dashboardCloseBtn()">
+              <i class="fa fa-times fa-sm text-dark"></i>
+            </a>
+          </div>
+
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <div class="d-flex justify-content-center mt-5 flex-column">
+                  <img style="width: 100px; height: 100px;" class="d-block rounded-circle mx-auto"
+                      src="https://www.seekpng.com/png/full/139-1395950_is-the-consumer-or-supply-chain-partner-expected.png"
+                      alt="">
+                  <h2 class="fw-lighter text-center mt-2">mamu u.</h2>
+                  <span class="text-center">0 Yums</a>
+              </div>
+
+              <ul class="list-group mt-3">
+                  <li class="list-group-item">
+                      <a href="javascript:" class="py-2 d-block" id="my-personal-tab" data-bs-toggle="pill" data-bs-target="#my-personal" role="tab" aria-controls="my-personal" aria-selected="true"><i class="far fa-user me-3"></i> My personal information</a>
+                  </li>
+
+                  <li class="list-group-item">
+                      <a class="py-2 d-block" href="javascript:" id="my-booking-tab" data-bs-toggle="pill" data-bs-target="#my-booking" role="tab" aria-controls="my-booking" aria-selected="false"><i
+                              class="fas fa-book-open me-3"></i> My Booking</a>
+                  </li>
+                  <li class="list-group-item">
+                      <a class="py-2 d-block" href="javascript:" id="my-favorite-tab" data-bs-toggle="pill" data-bs-target="#my-favorite" role="tab" aria-controls="my-favorite" aria-selected="false"><i
+                              class="far fa-heart me-3"></i> My Favorite</a>
+                  </li>
+                  <li class="list-group-item">
+                      <a class="py-2 d-block" href="javascript:" id="my-review-tab" data-bs-toggle="pill" data-bs-target="#my-review" type="button" role="tab" aria-controls="my-review" aria-selected="false">
+                          <i class="far fa-comment me-3"></i> My Reviews</a>
+                  </li>
+
+                  <li class="list-group-item">
+                      <a class="py-2 d-block" href="#"><i class="far fa-user me-3"></i> My
+                          Bonus Profile</a>
+                  </li>
+
+                  <li class="list-group-item">
+                      <a class="py-2 d-block" href="#"><i class="fas fa-cube me-3"></i> My
+                          Reference Space</a></li>
+                  <li class="list-group-item"><a class="py-2 d-block" href="#"><i class="fas fa-home me-3"></i>
+                          Register My Restaurant</a></li>
+                  <li class="list-group-item"><a class="py-2 d-block" href="#"><i class="fas fa-info-circle me-3"></i>
+                          Help</a></li>
+
+                  <li class="list-group-item"><a class="py-2 d-block" href="#"><i class="fas fa-sign-in-alt me-3"></i>
+                          Logout</a></li>
+              </ul>
+
+          </div>
+
+        </div>
+      </div>
+
 
   </main>
 

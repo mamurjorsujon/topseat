@@ -5,7 +5,7 @@ new PerfectScrollbar(leftScrollBar);
 
 
 function openDashboard(){
-    document.getElementById("user-dashboard-show").style.display = "block";
+    document.getElementById("user-left-dashboard").style.display = "block";
 }
 
 

@@ -103,6 +103,10 @@ a{
     font-size: 13px;
 }
 
+.fs-16{
+    font-size: 16px;
+}
+
 .font-11{
     font-size: 11px;
 }
@@ -1666,6 +1670,12 @@ a.btn-hover-bg-600:focus{
     background-color: var(--pri-color);
 }
 
+
 #user-info-btn:hover{
     color: var(--pri-color) !important;
+}
+
+.avatar-img{
+    width: 40px;
+    height: 40px;
 }
