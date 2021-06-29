@@ -15,6 +15,6 @@ function leftPanelClose(){
 
 // dashboard close btn
 function dashboardCloseBtn(){
-    document.getElementById('user-dashboard-show').style.display = 'none';
+    document.getElementById('user-left-dashboard').style.display = 'block';
 }
 
