@@ -1453,14 +1453,14 @@ a.btn-hover-bg-600:focus{
 }
 
 .side-direction {
-    top: -25%;
+    top: -160px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
 .btn-direction{
-    top: 11%;
+    bottom: -15px;
     left: 0;
     right: 0;
     margin: auto;
@@ -1678,4 +1678,8 @@ a.btn-hover-bg-600:focus{
 .avatar-img{
     width: 40px;
     height: 40px;
+}
+
+.good-know-img{
+    margin-top: -51%;
 }
