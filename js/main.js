@@ -13,6 +13,12 @@ function leftPanelClose(){
     document.getElementById("user-left-dashboard").style.display = "none";
 }
 
+// left dashboard item click details
+$('body').on('click', '.dashboard-item', function(){
+    document.getElementById('user-left-dashboard').style.display = 'none';
+    document.getElementById('user-dashboard-show').style.display = 'block';
+});
+
 // dashboard close btn
 function dashboardCloseBtn(){
     document.getElementById('user-left-dashboard').style.display = 'block';
