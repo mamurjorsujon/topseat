@@ -323,10 +323,51 @@
     .features-content-link{
         display: inline-block !important;
     }
+
     /* About Page */
     .image-bg{
         height: 30vh;
     }
+
+    .about-hero h2{
+        font-weight: 300 !important;
+        color: #666 !important;
+        font-size: 28px !important;
+        margin-bottom: 20px;
+    }
+    .play-icon-circles {
+        width: 100px;
+        height: 100px;
+        z-index: 1;
+    }
+    .video-icon{
+        font-size: 30px;
+    }
+    .forker-say {
+        margin: 20px 0;
+    }
+    .mt-sm-60 {
+        margin-top: 65px;
+    }
+    .Advertisement-model {
+        padding: 30px;
+    }
+    .Advertisement-btn {
+        width: 75%;
+    }
+    .py-sm-50{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .contact-sec h2{
+        font-size: 28px;
+        font-weight: 500 !important;
+        color: #333;
+    }
+
+
+
+
 
     /* Dashboard */
     .fs-18{
