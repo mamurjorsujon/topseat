@@ -51,12 +51,12 @@
             <a href="javascript:" id="user-info-btn" class="text-decoration-none d-block d-md-none p-1"><i class="far fa-user-circle user-icon-md"></i></a>
 
             <!-- desktop -->
-            <a href="javascript:" id="user-info-btn" class="text-decoration-none d-none d-md-block color-primary" onclick="openDashboard()"><i class="far fa-user-circle user-icon-md"></i> LOGIN</a>
+            <a href="javascript:" id="user-info-btn" class="text-decoration-none d-none d-md-block color-primary"><i class="far fa-user-circle user-icon-md"></i> LOGIN</a>
           </div>
 
           <!-- Auth == User -->
           <div>
-            <a href="javascript:" class="d-flex justify-content-end" onclick="openDashboard()">
+            <a href="javascript:" class="d-flex justify-content-end" onclick="openLeftDashboard()">
               <div class="text-end me-2 d-none d-md-block">
                 <p class="mb-0 text-dark fw-600 fs-16">Topseat</p>
                 <p class="mb-0 text-secondary fw-300 fs-16 font-arial">0 Yums</p>
@@ -1940,8 +1940,8 @@
         <div class="position-fixed overlay-color"></div>
         <div class="position-fixed shadow top-0 user-left-panel left-panel position-relative vh-100 bg-light">
 
-          <div class="position-sticky top-0 w-100 laft-panel-close bg-light shadow-sm py-3 text-end px-3">
-            <a href="javascript:" class="p-2" onclick="dashboardCloseBtn()">
+          <div class="position-sticky top-0 w-100 left-panel-close bg-light shadow-sm py-3 text-end px-3">
+            <a href="javascript:" class="p-2" onclick="leftPanelClose()">
               <i class="fa fa-times fa-sm text-dark"></i>
             </a>
           </div>
@@ -1957,24 +1957,24 @@
 
               <ul class="list-group mt-3">
                   <li class="list-group-item">
-                      <a href="javascript:" class="py-2 d-block" id="my-personal-tab" data-bs-toggle="pill" data-bs-target="#my-personal" role="tab" aria-controls="my-personal" aria-selected="true"><i class="far fa-user me-3"></i> My personal information</a>
+                      <a href="javascript:" class="py-2 d-block dashboard-item" id="my-personal-tab" data-bs-toggle="pill" data-bs-target="#my-personal" role="tab" aria-controls="my-personal" aria-selected="true"><i class="far fa-user me-3"></i> My personal information</a>
                   </li>
 
                   <li class="list-group-item">
-                      <a class="py-2 d-block" href="javascript:" id="my-booking-tab" data-bs-toggle="pill" data-bs-target="#my-booking" role="tab" aria-controls="my-booking" aria-selected="false"><i
+                      <a class="py-2 d-block dashboard-item" href="javascript:" id="my-booking-tab" data-bs-toggle="pill" data-bs-target="#my-booking" role="tab" aria-controls="my-booking" aria-selected="false"><i
                               class="fas fa-book-open me-3"></i> My Booking</a>
                   </li>
                   <li class="list-group-item">
-                      <a class="py-2 d-block" href="javascript:" id="my-favorite-tab" data-bs-toggle="pill" data-bs-target="#my-favorite" role="tab" aria-controls="my-favorite" aria-selected="false"><i
+                      <a class="py-2 d-block dashboard-item" href="javascript:" id="my-favorite-tab" data-bs-toggle="pill" data-bs-target="#my-favorite" role="tab" aria-controls="my-favorite" aria-selected="false"><i
                               class="far fa-heart me-3"></i> My Favorite</a>
                   </li>
                   <li class="list-group-item">
-                      <a class="py-2 d-block" href="javascript:" id="my-review-tab" data-bs-toggle="pill" data-bs-target="#my-review" type="button" role="tab" aria-controls="my-review" aria-selected="false">
+                      <a class="py-2 d-block dashboard-item" href="javascript:" id="my-review-tab" data-bs-toggle="pill" data-bs-target="#my-review" type="button" role="tab" aria-controls="my-review" aria-selected="false">
                           <i class="far fa-comment me-3"></i> My Reviews</a>
                   </li>
 
                   <li class="list-group-item">
-                      <a class="py-2 d-block" href="#"><i class="far fa-user me-3"></i> My
+                      <a class="py-2 d-block dashboard-item" href="#"><i class="far fa-user me-3"></i> My
                           Bonus Profile</a>
                   </li>
 
@@ -2070,5 +2070,14 @@
   <script src="js/main.js"></script>
   <!-- Slider Controller -->
   <script src="js/slides.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('body').on('click', '.dashboard-item', function(){
+        document.getElementById('user-left-dashboard').style.display = 'none';
+        document.getElementById('user-dashboard-show').style.display = 'block';
+      });
+    });
+  </script>
 </body>
 </html>
