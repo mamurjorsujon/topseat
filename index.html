@@ -48,10 +48,10 @@
             <a href="javascript:" class="d-block d-md-none p-1"><i class="fa fa-search user-icon-lg fa-sm me-2"></i></a>
 
             <!-- mobile -->
-            <a href="javascript:" id="user-info-btn" class="text-decoration-none d-block d-md-none p-1"><i class="far fa-user-circle user-icon-md"></i></a>
+            <a href="javascript:" id="user-info-btn" onclick="openLoginPanel();" class="text-decoration-none d-block d-md-none p-1"><i class="far fa-user-circle user-icon-md"></i></a>
 
             <!-- desktop -->
-            <a href="javascript:" id="user-info-btn" class="text-decoration-none d-none d-md-block color-primary"><i class="far fa-user-circle user-icon-md"></i> LOGIN</a>
+            <a href="javascript:" onclick="openLoginPanel();" id="user-info-btn" class="text-decoration-none d-none d-md-block color-primary"><i class="far fa-user-circle user-icon-md"></i> LOGIN</a>
           </div>
 
           <!-- Auth == User -->
@@ -2000,6 +2000,123 @@
               </ul>
           </div>
         </div>
+      </div>
+
+
+      <!-- Login Register Panel -->
+
+      <div class="bg-light" id="loginPanel" style="display: none;">
+        <div class="position-fixed overlay-color"></div>
+        <div style="background-color: #fff !important;" class="position-fixed shadow top-0 user-left-panel left-panel position-relative vh-100">
+
+          <img class="" src="https://www.thefork.se/statics/7ce516330a8424316490d5cd56256c00.svg" alt="">
+
+          <div class="position-fixed w-100 top-0 ml-auto left-panel-close text-end px-3">
+            <a href="javascript:" class="p-2" onclick="loginPanelClose()">
+              <i class="fa fa-times fa-sm text-dark"></i>
+            </a>
+          </div>
+
+          <span class="login-panel-icon mx-auto d-block">
+            <svg width="48" height="48" viewBox="0 0 253 288" aria-hidden="true" focusable="false" class="eg7avr00 css-1175tek e12cdcxp0"><path fill="#589442" fill-rule="nonzero" d="M116.972046,109.264985 L116.972046,0 L127.22767,0 L127.22767,109.264985 L116.972046,109.264985 Z M152.585926,2.79891692 L152.585926,105.621563 L142.319228,107.675225 L142.319228,1.37885538 L152.585926,2.79891692 Z M101.867422,1.37974154 L101.867422,107.673895 L91.5940812,105.620234 L91.5940812,2.79980308 L101.867422,1.37974154 Z M110.14168,263.80224 C109.716485,270.463902 109.355512,275.738732 109.355512,275.738732 C48.4573433,269.704025 0.999335632,221.23584 0.999335632,162.31104 C0.999335632,114.895163 30.9977571,74.7413169 74.7109448,57.5322092 C73.8627686,67.1514092 72.6137571,85.7207631 72.2727149,92.9274092 C71.9316728,100.122978 71.6925004,113.162732 73.6368835,124.425748 C75.3243778,134.222178 79.640554,144.328763 84.244623,152.722855 C88.9594199,161.353994 93.9776115,170.162363 96.794531,176.405317 C99.5915195,182.661563 101.201504,186.104271 103.261044,192.672886 C105.287366,199.252578 106.660393,204.203963 107.335834,208.601502 C108.013489,213.023409 109.375443,217.022178 110.225834,227.901932 C111.082868,238.810486 110.918991,239.043102 110.918991,242.578855 C110.918991,246.107963 110.560232,257.169378 110.14168,263.80224 Z M134.047628,263.80224 C133.618003,257.169378 133.263674,246.107963 133.263674,242.578855 C133.263674,239.043102 133.113084,238.810486 133.967903,227.901932 C134.81608,217.022178 136.166961,213.023409 136.853474,208.601502 C137.542202,204.203963 138.895298,199.252578 140.928264,192.672886 C142.974516,186.104271 144.58893,182.661563 147.410279,176.405317 C150.213911,170.162363 155.240961,161.353994 159.944685,152.722855 C164.548754,144.328763 168.86493,134.222178 170.552425,124.425748 C172.503451,113.162732 172.264279,100.122978 171.90552,92.9274092 C171.57998,85.7207631 170.319896,67.1514092 169.47172,57.5322092 C213.184907,74.7413169 243.189972,114.895163 243.189972,162.31104 C243.189972,221.23584 195.738608,269.704025 134.827152,275.738732 C134.827152,275.738732 134.470608,270.463902 134.047628,263.80224 Z"></path></svg>
+          </span>
+
+          <p class="text-center mt-3 text-dark fs-6 fw-600">Ange din e-postadress</p>
+
+          <form class="login-form mt-5 d-block">
+            <div class="form-group">
+                  <label>Email Address</label>
+                  <input type="email" class=" box-shadow-none border-bottom border-0 border-1 form-control" placeholder="Your email address">
+              </div>
+
+              <button type="submit" class="text-uppercase btn w-100 mt-4 py-2 fw-700 text-light">continue</button>
+
+              <div class="d-non mt-4">
+                <div class="form-group my-1">
+                      <input type="text" class=" box-shadow-none border-bottom border-0 border-1 form-control" placeholder="First Name">
+                  </div>
+                  <div class="form-group my-1">
+                      <input type="text" class=" box-shadow-none border-bottom border-0 border-1 form-control" placeholder="Sure Name">
+                  </div>
+
+                  <div class="row g-2 my-1">
+                    <div class="col-xl-3 g-2 col-5">
+                        <div class="form-group">
+                            <select class="form-select box-shadow-none  border-bottom border-0 border-1"
+                                aria-label="Default select example">
+                                <option value="">+880</option>
+                                <option value="">Two</option>
+                                <option value="">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 g-2 col-7">
+                        <div class="form-group">
+                            <input type="text" class=" box-shadow-none border-bottom border-0 border-1 form-control" placeholder="Phone Number">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group my-1">
+                  <input type="password" class=" box-shadow-none border-bottom border-0 border-1 form-control" placeholder="Your Password">
+                </div>
+
+                <ul class="pass-list-group list-group mt-1">
+                  <li class=""><input type="radio" style="margin-top: 3px;" class="me-2" name="password" id="password_character"><label for="password_character">6 characters minimum</label></li>
+                  <li class=""><input type="radio" style="margin-top: 3px;" class="me-2" name="password" id="password_character"><label for="password_character">1 uppercase</label></li>
+                  <li class=""><input type="radio" style="margin-top: 3px;" class="me-2" name="password" id="password_character"><label for="password_character">1 digit or special character</label></li>
+                </ul>
+
+                <div class="form-check mt-3">
+                  <label for="terms" class="form-check-label"><input type="checkbox" class="me-2 form-check-input" name="terms" id="terms">
+                  I do not want to receive updates via email from TheFork, and I understand that I am missing out on the best deals, bonus offers and events.</label>
+                </div>
+
+                <label class="mt-3">* Required fields</label>
+
+                <button type="submit" class="text-uppercase btn w-100 mt-4 py-2 fw-700 text-light">register</button>
+
+                <hr>
+
+                <div class="terms-of-use">
+                  <h6 class="text-center">
+                    By clicking on Register, you agree to TopSeat's Terms of Use .
+                  </h6>
+                  <p class="text-center px-2">
+                    La Fourchette SAS and the restaurant process personal data for the purpose of booking management and maintaining a customer relationship. Under applicable law, you have the right to access, correct, prevent and transmit your data and the right to refuse to have your data processed, in particular for marketing purposes. You can exercise these rights here or by contacting the restaurant. You can submit a complaint to the regulatory authority for the use of personal data if you believe that your personal data has not been used legally. More information can be found in <a href="#!">Top Seat's privacy and cookie policy</a> .
+                  </p>
+                </div>
+              </div>
+
+              <div class="login-hr-line">
+                <p class="mt-4 mx-auto">or</p>
+              </div>
+          </form>
+
+          <div class="social-login-button px-2">
+            <button type="submit" class="text-uppercase btn w-100 mt-4 py-2 fw-700 text-light"><i class="fab fa-facebook-square me-2"></i>connect with facebook</button>
+
+            <button type="submit" class="google text-uppercase btn w-100 mt-4 py-2 fw-700 text-light"><img src="img/google.svg" alt="" class="me-3"> connect with google</button>
+          </div>
+
+          <div class="login-info px-2 mt-4">
+            <p><i class="fas fa-lock me-1"></i>No publication takes place without your permission.</p>
+            <p><i class="fas fa-clock me-1"></i>It goes much faster like this!</p>
+          </div>
+
+          <ul class="login-panel-list-group list-group mt-xl-4">
+              <li class="list-group-item">
+                <a class="py-2 d-block dashboard-item" href="javascript:"><i class="fas fa-home me-3"></i>
+                  Register My Restaurant</a>
+              </li>
+              <li class="list-group-item me-2">
+                <div class="d-flex justify-content-between align-baseline">
+                  <a class="py-2 d-block dashboard-item" href="javascript:"><i class="far fa-question-circle me-3"></i>
+                  Help</a>
+                  <button class="btn"><i class="fas fa-angle-down"></i></button>
+                </div>
+              </li>
+          </ul>
       </div>
   </main>
 
