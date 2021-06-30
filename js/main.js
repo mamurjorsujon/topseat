@@ -25,3 +25,11 @@ function dashboardCloseBtn(){
     document.getElementById("user-dashboard-show").style.display = "none";
 }
 
+// Open Login Panel
+function openLoginPanel() {
+	document.getElementById("loginPanel").style.display = "block";
+}
+
+function loginPanelClose() {
+	document.getElementById("loginPanel").style.display = "none";
+}
