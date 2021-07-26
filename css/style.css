@@ -132,7 +132,7 @@ a{
 }
 
 .color-primary{
-    color: hsl(104, 38%, 42%);
+    color: var(--pri-color);
 }
 
 .heading-color{
@@ -151,7 +151,8 @@ a{
 /* Root Color Variable
 ======================*/
 :root{
-    --pri-color: hsl(104, 38%, 42%);
+    --pri-color: #202A44;
+    --sec-color: #F9A602;
     --sec-heading: #616160;
     --booking-btn-hover-bg: rgb(232, 240, 229);
     --booking-btn-box-shadow: rgb(67 113 50);
@@ -241,7 +242,7 @@ a{
 }
 
 .header-form-submit button:hover {
-    background: hsl(103, 45%, 28%) !important;
+    background: var(--sec-color) !important;
     border: none;
 }
 
@@ -252,7 +253,7 @@ a{
 
 .offer-section-header .arrows .fas:hover {
     background-color: var(--booking-btn-hover-bg);
-    border: 1px solid var(--booking-btn-box-shadow) !important;
+    border: 1px solid var(--pri-color) !important;
 }
 
 .offer-restaurant-card {
@@ -296,7 +297,7 @@ a{
     line-height: 13.8px;
     border-radius: 2px;
     padding: 3px 5px;
-    background-color: rgb(40, 67, 60);
+    background-color: var(--pri-color);
     margin-top: -5px;
 }
 
@@ -331,11 +332,11 @@ a{
     margin-left: 0.125rem;
     margin-right: 0.125rem;
     font-size: 1.5rem;
-    color: hsl(104, 38%, 42%);
+    color: var(--pri-color);
 }
 
 .Baso2 {
-    fill: #589442 !important;
+    fill: var(--pri-color) !important;
     width: 3.375rem !important;
     height: 3.375rem !important;
 }
@@ -1672,7 +1673,7 @@ a.btn-hover-bg-600:focus{
 
 
 #user-info-btn:hover{
-    color: var(--pri-color) !important;
+    color: var(--sec-color) !important;
 }
 
 .avatar-img{
